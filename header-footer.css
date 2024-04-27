@@ -26,7 +26,7 @@ header menu{
 
 @font-face {
     font-family: Inter;
-    src: url('./fonts/Inter-V.ttf');
+    src: url('Inter-V.ttf');
 }
 #mainBtn{
     margin-top: 4vh;
@@ -75,7 +75,7 @@ header button svg{
     margin-top: -2px;
     background-size: contain;
     background-position: center;
-    background-image: url('/resources/images/moon.png');
+    background-image: url('moon.png');
 }
 
 footer{
@@ -90,7 +90,7 @@ footer{
 
 @font-face {
     font-family: InterEm;
-    src: url('/resources/fonts/Inter-BoldItalic.otf');
+    src: url('Inter-BoldItalic.otf');
 }
 
 footer h4{
