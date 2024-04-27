@@ -1,0 +1,111 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left:8vw;
+    padding-right:8vw;
+    height: 12vh;
+    align-items: center
+}
+header button{
+    background-color: rgba(250, 235, 215, 0);
+    border: 0ch;
+    font-size:14px;
+    
+    
+}
+header menu{
+    min-width: 42%;
+    margin-left: 0;
+    padding-left: 0;
+    max-width: 350px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+
+@font-face {
+    font-family: Inter;
+    src: url('/resources/fonts/Inter-V.ttf');
+}
+#mainBtn{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-family: Inter;
+    transform: scaleY(1.05);
+    flex-direction: column;
+}
+#mainBtn h4{
+    text-wrap: nowrap;
+    font-size: 26px;
+    transform:skewX(-13deg);
+    font-weight: 800;
+}
+
+#mainBtn h4,p{
+    margin: 0%;
+
+}
+#mainBtn p{
+    font-size: 9px;
+    letter-spacing: 3.5px;
+    transform: scaleY(0.9);
+    font-weight: 500;
+    margin-top: -5px;
+    
+}
+.menuH-btn{
+height: 5vh;
+}
+header button{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+}
+
+header button svg{
+    margin-top: 4.7px;
+    margin-right: -5.5px;
+}
+
+#moonImg{
+    width: 18px;
+    height: 18px;
+    margin-right: 0.5vw;
+    margin-top: -2px;
+    background-size: contain;
+    background-position: center;
+    background-image: url('/resources/images/moon.png');
+}
+
+footer{
+    height: 32vh;
+    background-color: #4159BB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+@font-face {
+    font-family: InterEm;
+    src: url('/resources/fonts/Inter-BoldItalic.otf');
+}
+
+footer h4{
+font-family: InterEm;
+color: white;
+font-size: 35px;
+margin: 0%;
+}
+footer div{
+    width: 20vw;
+    display: flex;
+    margin-bottom: 2vh;
+    justify-content: space-around
+}
+footer p{
+    color: #B2C1E2;
+    font-size: 2vh;
+}
