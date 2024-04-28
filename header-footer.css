@@ -3,13 +3,13 @@ header{
     justify-content: space-between;
     padding-left:8vw;
     padding-right:8vw;
-    height: 12vh;
+    height: 11,1vh;
     align-items: center
 }
 header button{
     background-color: rgba(250, 235, 215, 0);
     border: 0ch;
-    font-size:14px;
+    font-size:1vh;
     
     
 }
@@ -26,14 +26,20 @@ header menu{
 
 @font-face {
     font-family: Inter;
-    src: url('Inter-V.ttf');
+    src: url('/resources/fonts/Inter-V.ttf');
 }
 #mainBtn{
     margin-top: 4vh;
+    width: 9vw;
+    height: 4.2vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-bottom: 4vh;
     font-family: Inter;
     transform: scaleY(1.05);
     flex-direction: column;
+    background-image: url('/resources/images/logoBlack.png');
 }
 #mainBtn h4{
     text-wrap: nowrap;
@@ -47,7 +53,7 @@ header menu{
 
 }
 #mainBtn p{
-    font-size: 9px;
+    font-size: 1.3vh;
     letter-spacing: 3.5px;
     transform: scaleY(0.9);
     font-weight: 500;
@@ -55,9 +61,11 @@ header menu{
     
 }
 .menuH-btn{
-height: 5vh;
+font-size: 2vh;
 }
-header button{
+header button,a{
+    text-decoration: none;
+    color: black;
     display: flex;
     align-items: center;
     font-family: Inter;
@@ -75,7 +83,7 @@ header button svg{
     margin-top: -2px;
     background-size: contain;
     background-position: center;
-    background-image: url('moon.png');
+    background-image: url('/resources/images/moon.png');
 }
 
 footer{
@@ -90,7 +98,7 @@ footer{
 
 @font-face {
     font-family: InterEm;
-    src: url('Inter-BoldItalic.otf');
+    src: url('/resources/fonts/Inter-BoldItalic.otf');
 }
 
 footer h4{

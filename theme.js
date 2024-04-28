@@ -1,6 +1,7 @@
 let theme = "light";
 const body = document.getElementsByTagName("body")[0],
   buttons = document.getElementsByTagName("button"),
+  a = document.getElementsByTagName("a"),
   form = document.getElementsByTagName("form"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
   langCard = document.getElementsByClassName("langCard"),
@@ -11,6 +12,7 @@ const darkTheme = {
   btn: "#4159BB",
   svg: `<div id='moonImg'></div>
 `,
+  mainBtnInvert: 1,
 };
 const lightTheme = {
   background: "white",
@@ -53,6 +55,7 @@ const lightTheme = {
   />
 </svg>
 `,
+  mainBtnInvert: 0,
 };
 function changeTheme() {
   if (theme == "light") {
@@ -67,6 +70,9 @@ function changeTheme() {
 }
 
 function colors(objTheme) {
+  document.getElementById(
+    "mainBtn"
+  ).style.filter = `invert(${objTheme.mainBtnInvert})`;
   body.style.backgroundColor = objTheme.background;
   body.style.color = objTheme.color;
   for (let i = 0; i < buttons.length; i++) {
@@ -89,6 +95,10 @@ function colors(objTheme) {
   for (let i = 0; i < whiteBtn.length; i++) {
     const element = whiteBtn[i];
     element.style.color = "white";
+  }
+  for (let i = 0; i < a.length; i++) {
+    const element = a[i];
+    element.style.color = objTheme.color;
   }
 
   document.getElementById("themeBtn").innerHTML = `${objTheme.svg} Тема`;

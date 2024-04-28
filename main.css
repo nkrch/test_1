@@ -11,7 +11,7 @@ body{
 
 @font-face {
     font-family: InterExBoIt;
-    src: url('Inter-ExtraBoldItalic.otf');
+    src: url('/resources/fonts/Inter-ExtraBoldItalic.otf');
 }
 #fir h2 em{
     font-style: normal;
@@ -98,13 +98,13 @@ body{
     margin-top: -2vh;
 }
 #brFlag{
-    background-image: url('brFlag.png');
+    background-image: url('/resources/images/brFlag.png');
 }
 #geFlag{
-    background-image: url('geFlag.png');
+    background-image: url('/resources/images/geFlag.png');
 }
 #spFlag{
-background-image: url('spFlag.png');
+background-image: url('/resources/images/spFlag.png');
 }
 
 .langCard p{
@@ -129,7 +129,7 @@ background-image: url('spFlag.png');
 }
 @font-face {
     font-family: InterSemiBold;
-    src: url('Inter-SemiBold.otf');
+    src: url('/resources/fonts/Inter-SemiBold.otf');
 }
 .langCard em{
     font-style: normal;
@@ -170,7 +170,7 @@ height: 48%;
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
-background-image: url('dance.png');
+background-image: url('/resources/images/dance.png');
 }
 #weekFree{
 width: 30%;
@@ -248,12 +248,11 @@ width: 60%;
 }
 
 #fou input{
-    width: 100%;
     height: 5vh;
     border: 1px solid #999EAD;
     padding-left: 1vw;
     border-radius: 10px;
-
+width: 100%;
 
 }
 
