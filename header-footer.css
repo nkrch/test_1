@@ -29,6 +29,15 @@ header nav{
     flex-wrap: wrap
 }
 
+#navElem{
+    min-width: 42%;
+    margin-left: 0;
+    padding-left: 0;
+    max-width: 350px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
 
 @font-face {
     font-family: Inter;
