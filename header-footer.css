@@ -13,7 +13,13 @@ header button{
     
     
 }
-header menu{
+
+#headerMenu{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+header nav{
     min-width: 42%;
     margin-left: 0;
     padding-left: 0;
