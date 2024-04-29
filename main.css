@@ -1,10 +1,16 @@
+html{
+    display: flex;
+    justify-content: center;
+    
+}
 body{
+    width: 1440px;
     font-family: Inter;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 #fir{
-    
+    width: 100%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -20,23 +26,26 @@ body{
 }
 
 #fir{
-    padding-left: 8vw;
+    padding-left: 120px;
     padding-top: 8vh;
     padding-bottom: 8.5vh;
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 1320px;
 }
 
+
+
 #fir article h2{
-    font-size: 52px;
+    font-size: 50px;
     margin-bottom: 5px;
     font-weight: 700;
     margin-top: 0;
 }
 
 #fir article p{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 3.3vh;
     width: 90%;
 }
@@ -47,11 +56,9 @@ body{
 }
 
 #fir article button{
-    width: 58%;
-    margin-left: 10vh;
-    
-    padding-top: 2.2vh;
-    padding-bottom: 2.2vh;
+    width: 295px;
+    margin-left: 71px;
+    height: 46px;
     font-family: Inter;
     font-size: 14.8px;
     border-radius: 40px;
@@ -63,17 +70,26 @@ body{
     border-top-left-radius: 34px;
     border-bottom-left-radius: 34px;
     
-    width: 49%;
-    height: 50vh;
+    width: 641px;
+    height: 342px;
     background-color: #B2C1E2;
 }
 
 #sec{
+    width: 1440px;
+    height: 582px;
     display: flex;
-    padding-left: 8vw;
-    padding-right: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-cont{
+    display: flex;
+    
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    width: 1200px;
+    height: 450px;
 }
 
 .headingLang h3{
@@ -90,21 +106,22 @@ body{
 }
 
 #brFlag,#geFlag,#spFlag{
-    width: 4vw;
-    height: 10vh;
+    
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -2vh;
+    width: 67px;
+    height: 63px;
 }
 #brFlag{
-    background-image: url('/resources/images/brFlag.png');
+    background-image: url('brFlag.png');
 }
 #geFlag{
-    background-image: url('/resources/images/geFlag.png');
+    background-image: url('geFlag.png');
 }
 #spFlag{
-background-image: url('/resources/images/spFlag.png');
+background-image: url('spFlag.png');
 }
 
 .langCard p{
@@ -114,15 +131,14 @@ background-image: url('/resources/images/spFlag.png');
 }
 
 .langCard{
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    font-size: 15px;
-    width: 17.5vw;
-    min-height: 40vh;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    width: 310px;
+    height: 339px;
     border: 1px solid black;
     border-radius: 25px;
 
@@ -136,47 +152,48 @@ background-image: url('/resources/images/spFlag.png');
     font-family: InterSemiBold;
 }
 .langCard p{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .langCard-p{
     display: flex;
     flex-direction: column;
-    min-height: 30vh;
+    height: 230px;
+    width: 310px;
     justify-content: space-around
 }
 
 #thi{
-height: 30vh;
-width: 82vw;
+height: 218px;
+width: 1200px;
 background-color: #4159BB;
-padding-left: 8vw;
-    padding-right: 10vw;
+padding-left: 120px;
+    padding-right: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between
 }
 
 #friendAdd{
-width: 30%;
+
 color: white;
 font-family: Inter;
-font-size: 6vh;
+font-size: 46px;
 font-weight: 500;
 }
 #dance{
-width: 30%;
-height: 48%;
+width: 236px;
+height: 128px;
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
 background-image: url('dance.png');
 }
 #weekFree{
-width: 30%;
+
 color: white;
 font-family: Inter;
-font-size: 5.4vh;
+font-size: 47px;
 font-weight: 500;
 text-align: end;
 }
@@ -187,10 +204,10 @@ text-align: end;
 }
 
 #fou{
-    height: 44vh;
-    width: 82vw;
-    padding-left: 8vw;
-    padding-right: 10vw;
+    height: 447px;
+    width: 1170px;
+    padding-left: 120px;
+    padding-right: 120px;
     padding-top: 8vh;
     padding-bottom: 8vh;
     display: flex;
@@ -199,13 +216,14 @@ text-align: end;
 }
 #fou form{
     display: flex;
-    width: 84vw;
+    width: 1200px;
+    height: 317px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 6vw;
-    padding-right: 8vw;
+    padding-top: 77.5px;
+    padding-bottom: 77.5px;
+    padding-left: 93px;
+    padding-right:93px;
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -213,19 +231,20 @@ text-align: end;
 #fou form aside{
 display: flex;
 flex-direction: column;
-width: 30%;
-gap: 3vh;
+width: 383px;
+height: 162px;
+gap: 18px;
 align-items: center
 }
 
 #fou form article{
-width: 60%;
+width: 557px;
 }
 
 #fou form article h2{
     margin: 0%;
-    font-size: 50px;
-    margin-bottom: 3vh;
+    font-size: 47px;
+    margin-bottom: 6px;
 }
 
 #fou form em{
@@ -234,11 +253,10 @@ width: 60%;
 }
 
 #fou button{
-    width:80%;
+    width:260px;
+    height: 42px;
     
-    margin-top: 2.3vh;
-    padding-top: 2.2vh;
-    padding-bottom: 2.2vh;
+    
     font-family: Inter;
     font-size: 14.8px;
     border-radius: 40px;
@@ -248,11 +266,11 @@ width: 60%;
 }
 
 #fou input{
-    height: 5vh;
+    height: 42px;
     border: 1px solid #999EAD;
-    padding-left: 1vw;
+    
     border-radius: 10px;
-width: 100%;
+width: 383px;
 
 }
 

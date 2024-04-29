@@ -1,9 +1,10 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding-left:8vw;
-    padding-right:8vw;
-    height: 11,1vh;
+    padding-left:120px;
+    padding-right:120px;
+    height: 84px;
+    width: 1200px;
     align-items: center
 }
 header button{
@@ -20,10 +21,12 @@ header button{
     width: 50vw;
 }
 header nav{
-    min-width: 42%;
+    /*min-width: 42%;
+    
+    max-width: 350px ;*/
     margin-left: 0;
     padding-left: 0;
-    max-width: 350px ;
+    width: 591px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap
@@ -36,8 +39,8 @@ header nav{
 }
 #mainBtn{
     margin-top: 4vh;
-    width: 9vw;
-    height: 4.2vh;
+    width: 134px;
+    height: 38px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,27 +50,9 @@ header nav{
     flex-direction: column;
     background-image: url('logoBlack.png');
 }
-#mainBtn h4{
-    text-wrap: nowrap;
-    font-size: 26px;
-    transform:skewX(-13deg);
-    font-weight: 800;
-}
 
-#mainBtn h4,p{
-    margin: 0%;
-
-}
-#mainBtn p{
-    font-size: 1.3vh;
-    letter-spacing: 3.5px;
-    transform: scaleY(0.9);
-    font-weight: 500;
-    margin-top: -5px;
-    
-}
 .menuH-btn{
-font-size: 2vh;
+font-size: 14px;
 }
 header button,a{
     text-decoration: none;
@@ -93,13 +78,13 @@ header button svg{
 }
 
 footer{
-    height: 32vh;
+    height: 252px;
     background-color: #4159BB;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vh;
+    gap: 30px;
 }
 
 @font-face {
@@ -114,12 +99,12 @@ font-size: 35px;
 margin: 0%;
 }
 footer div{
-    width: 20vw;
+    width: 184px;
     display: flex;
-    margin-bottom: 2vh;
+    
     justify-content: space-around
 }
 footer p{
     color: #B2C1E2;
-    font-size: 2vh;
+    font-size: 14px;
 }
