@@ -3,6 +3,7 @@ const body = document.getElementsByTagName("body")[0],
   buttons = document.getElementsByTagName("button"),
   a = document.getElementsByTagName("a"),
   li = document.getElementsByTagName("li"),
+  main = document.getElementsByTagName("main"),
   form = document.getElementsByTagName("form"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
   langCard = document.getElementsByClassName("langCard"),
@@ -104,6 +105,11 @@ function colors(objTheme) {
   for (let i = 0; i < li.length; i++) {
     const element = li[i];
     element.style.color = objTheme.color;
+    element.style.borderColor = objTheme.color;
+  }
+  for (let i = 0; i < main.length; i++) {
+    const element = main[i];
+
     element.style.borderColor = objTheme.color;
   }
 
