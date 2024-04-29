@@ -1,8 +1,4 @@
-html{
-    display: flex;
-    justify-content: center;
-    
-}
+
 body{
     width: 1440px;
     font-family: Inter;
@@ -269,14 +265,16 @@ width: 557px;
 #fou input{
     height: 42px;
     border: 1px solid #999EAD;
-    
+    background-color: rgba(0, 0, 128, 0);
     border-radius: 10px;
 width: 383px;
+padding-left: 17px;
 
 }
 
 #fou input::placeholder{
     font-family: Inter;
+    
 }
 
 

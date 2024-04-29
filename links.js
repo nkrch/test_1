@@ -1,5 +1,5 @@
 function openLink(link) {
-  window.location = "/pages/" + link + ".html";
+  window.location = link + ".html";
 }
 
 function formAct() {

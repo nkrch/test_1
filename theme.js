@@ -2,6 +2,7 @@ let theme = "light";
 const body = document.getElementsByTagName("body")[0],
   buttons = document.getElementsByTagName("button"),
   a = document.getElementsByTagName("a"),
+  li = document.getElementsByTagName("li"),
   form = document.getElementsByTagName("form"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
   langCard = document.getElementsByClassName("langCard"),
@@ -99,6 +100,11 @@ function colors(objTheme) {
   for (let i = 0; i < a.length; i++) {
     const element = a[i];
     element.style.color = objTheme.color;
+  }
+  for (let i = 0; i < li.length; i++) {
+    const element = li[i];
+    element.style.color = objTheme.color;
+    element.style.borderColor = objTheme.color;
   }
 
   document.getElementById("themeBtn").innerHTML = `${objTheme.svg} Тема`;

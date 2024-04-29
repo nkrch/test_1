@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Inter;
+    src: url('Inter-Regular.otf');
+}
+@font-face {
+    font-family: InterExBoIt;
+    src: url('Inter-ExtraBoldItalic.otf');
+}
+@font-face {
+    font-family: InterMedium;
+    src: url('Inter-Medium.otf');
+}
+@font-face {
+    font-family: InterSemiBold;
+    src: url('Inter-SemiBold.otf');
+}
+main{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    padding-left: 120px;
+    height: 1661px;
+    width: 1320px;
+}
+#sch-cont{
+    gap: 25px;
+    height: 1340px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+font-family: InterExBoIt;
+font-size: 64px;
+text-transform: uppercase;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+li{
+    list-style-type: none;
+}
+.sch-elem{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 25px;
+    width: 1165px;
+    height:90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between
+}
+
+.sch-elem h3{
+    
+    font-size: 32px;
+    width: 274px;
+    margin: 0%;
+    font-family: InterSemiBold;
+}
+
+.sch-elem h3 div{
+    
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.brFlag{
+    width: 32px;
+    height: 32px;
+    
+    background-image: url('brFlag.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sch-elem p{
+    margin: 0;
+}
+
+.desc{
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.desc em{
+    font-family: InterSemiBold;
+    font-style: normal;
+}
+
+.priceTag{
+    height: 90px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+gap: 12px;
+}
+
+.priceTag h5{
+    font-size: 32px;
+    margin: 0;
+    line-height: 36px;
+   
+}
+
+.priceTag button{
+    width: 260px;
+    height: 42px;
+    background-color: #4159BB;
+    font-family: InterMedium;
+    color: white;
+    font-size: 16px;
+    font-weight: 350;
+    border-radius: 40px;
+    border: 0cap;
+}

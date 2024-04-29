@@ -48,7 +48,7 @@ header nav{
 }
 #mainBtn{
     margin-top: 4vh;
-    width: 134px;
+    width: 184px;
     height: 38px;
     background-position: center;
     background-size: contain;
@@ -116,4 +116,5 @@ footer div{
 footer p{
     color: #B2C1E2;
     font-size: 14px;
+    font-family: Inter;
 }
