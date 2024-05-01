@@ -65,13 +65,23 @@ function changeTheme() {
   if (theme == "light") {
     theme = "dark";
     colors(darkTheme);
+    objTheme = darkTheme;
+    document.getElementById("themeBtn").innerHTML = objTheme.svg + " Тема";
+    innerChangeF(objTheme);
   } else {
     theme = "light";
-
+    objTheme = lightTheme;
+    document.getElementById("themeBtn").innerHTML = objTheme.svg + " Тема";
     colors(lightTheme);
+    innerChangeF(objTheme);
   }
 
-  console.log(theme);
+  function innerChangeF(objTheme) {
+    document.getElementById("subs").style.borderColor = objTheme.color;
+    document.getElementById("adr").style.color = "white";
+
+    console.log(theme);
+  }
 }
 
 function colors(objTheme) {
@@ -99,9 +109,6 @@ function colors(objTheme) {
   borderColorFC(li, objTheme);
 
   borderColorFC(main, objTheme);
-  document.getElementById("subs").style.borderColor = objTheme.color;
-  document.getElementById("adr").style.color = "white";
-  document.getElementById("themeBtn").innerHTML = `${objTheme.svg} Тема`;
 }
 
 function invertF(objTheme) {

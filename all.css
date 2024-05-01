@@ -19,3 +19,7 @@ body{
     font-family: Inter;
     src: url('/resources/fonts/Inter-V.ttf');
 }
+
+#moonImg{
+    background-image: url('moon.png');
+}
