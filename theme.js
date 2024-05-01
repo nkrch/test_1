@@ -3,6 +3,8 @@ const body = document.getElementsByTagName("body")[0],
   buttons = document.getElementsByTagName("button"),
   a = document.getElementsByTagName("a"),
   li = document.getElementsByTagName("li"),
+  h3 = document.getElementsByTagName("h3"),
+  h4 = document.getElementsByTagName("h4"),
   main = document.getElementsByTagName("main"),
   form = document.getElementsByTagName("form"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
@@ -68,50 +70,70 @@ function changeTheme() {
 
     colors(lightTheme);
   }
+
   console.log(theme);
 }
 
 function colors(objTheme) {
+  /*document.getElementById(
+    "mainBtn"
+  ).style.filter = `invert(${objTheme.mainBtnInvert})`;*/
+  invertF(objTheme);
+  body.style.backgroundColor = objTheme.background;
+  body.style.color = objTheme.color;
+
+  colorFC(buttons, objTheme);
+  colorFC(h3, objTheme);
+  borderColorFC(h3, objTheme);
+  colorFC(h4, objTheme);
+  borderColorFC(h4, objTheme);
+  borderColorFC(section, objTheme);
+  borderColorFC(langCard, objTheme);
+  borderColorFC(form, objTheme);
+
+  whiteCLR(whiteBtn);
+
+  colorFC(a, objTheme);
+
+  colorFC(li, objTheme);
+  borderColorFC(li, objTheme);
+
+  borderColorFC(main, objTheme);
+  document.getElementById("subs").style.borderColor = objTheme.color;
+  document.getElementById("adr").style.color = "white";
+  document.getElementById("themeBtn").innerHTML = `${objTheme.svg} Тема`;
+}
+
+function invertF(objTheme) {
   document.getElementById(
     "mainBtn"
   ).style.filter = `invert(${objTheme.mainBtnInvert})`;
-  body.style.backgroundColor = objTheme.background;
-  body.style.color = objTheme.color;
-  for (let i = 0; i < buttons.length; i++) {
-    const element = buttons[i];
+  let logo = document.getElementsByClassName("logo");
+
+  for (let i = 0; i < logo.length; i++) {
+    const element = logo[i];
+    element.style.filter = `invert(${objTheme.mainBtnInvert})`;
+  }
+}
+function colorFC(arr, objTheme) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
     element.style.color = objTheme.color;
   }
-  for (let i = 0; i < section.length; i++) {
-    const element = section[i];
-    element.style.borderColor = objTheme.color;
-  }
-  for (let i = 0; i < langCard.length; i++) {
-    const element = langCard[i];
-    element.style.borderColor = objTheme.color;
-  }
+}
 
-  for (let i = 0; i < form.length; i++) {
-    const element = form[i];
+function borderColorFC(arr, objTheme) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
     element.style.borderColor = objTheme.color;
   }
-  for (let i = 0; i < whiteBtn.length; i++) {
-    const element = whiteBtn[i];
+}
+
+function bcrColor(arr, objTheme) {}
+
+function whiteCLR(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
     element.style.color = "white";
   }
-  for (let i = 0; i < a.length; i++) {
-    const element = a[i];
-    element.style.color = objTheme.color;
-  }
-  for (let i = 0; i < li.length; i++) {
-    const element = li[i];
-    element.style.color = objTheme.color;
-    element.style.borderColor = objTheme.color;
-  }
-  for (let i = 0; i < main.length; i++) {
-    const element = main[i];
-
-    element.style.borderColor = objTheme.color;
-  }
-
-  document.getElementById("themeBtn").innerHTML = `${objTheme.svg} Тема`;
 }
