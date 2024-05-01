@@ -7,6 +7,7 @@ const body = document.getElementsByTagName("body")[0],
   h4 = document.getElementsByTagName("h4"),
   main = document.getElementsByTagName("main"),
   form = document.getElementsByTagName("form"),
+  input = document.getElementsByTagName("input"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
   langCard = document.getElementsByClassName("langCard"),
   section = document.getElementsByTagName("section");
@@ -104,7 +105,7 @@ function colors(objTheme) {
   whiteCLR(whiteBtn);
 
   colorFC(a, objTheme);
-
+  colorFC(input, objTheme);
   colorFC(li, objTheme);
   borderColorFC(li, objTheme);
 
@@ -142,5 +143,12 @@ function whiteCLR(arr) {
   for (let i = 0; i < arr.length; i++) {
     const element = arr[i];
     element.style.color = "white";
+  }
+}
+
+function placehColor(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    element.placeholder.style.color = "white";
   }
 }
