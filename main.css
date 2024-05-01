@@ -6,7 +6,7 @@ body{
 }
 
 #fir{
-    width: 100%;
+    width: 1440px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -23,8 +23,8 @@ body{
 
 #fir{
     padding-left: 120px;
-    padding-top: 8vh;
-    padding-bottom: 8.5vh;
+    padding-top: 55px;
+    padding-bottom: 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
