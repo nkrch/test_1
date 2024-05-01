@@ -42,18 +42,19 @@ li{
     border: 1px solid black;
     display: flex;
     border-radius: 25px;
-    width: 1165px;
+    width: 1125px;
     height:90px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
-    justify-content: space-between
+    
 }
 
 .sch-elem h3{
     
     font-size: 32px;
+    
     width: 274px;
     margin: 0%;
     font-family: InterSemiBold;
@@ -66,6 +67,7 @@ li{
     display: flex;
     align-items: center;
     gap: 5px;
+    
 }
 .brFlag{
     width: 32px;
@@ -82,6 +84,8 @@ li{
 }
 
 .desc{
+    margin-left: 102px;
+    margin-right: 148px;
     font-family: Inter;
     display: flex;
     flex-direction: column;
