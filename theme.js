@@ -2,6 +2,7 @@ let theme = "light";
 const body = document.getElementsByTagName("body")[0],
   buttons = document.getElementsByTagName("button"),
   a = document.getElementsByTagName("a"),
+  div = document.getElementsByTagName("div"),
   li = document.getElementsByTagName("li"),
   h3 = document.getElementsByTagName("h3"),
   h4 = document.getElementsByTagName("h4"),
@@ -111,6 +112,7 @@ function colors(objTheme) {
   borderColorFC(li, objTheme);
   bcrColor(header, objTheme);
   borderColorFC(header, objTheme);
+  borderColorFC(div, objTheme);
   borderColorFC(main, objTheme);
 }
 

@@ -9,10 +9,11 @@ html{
         
             scroll-behavior: smooth;
           
-    
+    border: 0ch;
 }
 body{
     margin: 0%;
+    border: 0ch;
     padding: 0%;
 
 }

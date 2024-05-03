@@ -33,7 +33,7 @@ document.getElementById("menuBurger").onclick = menuBurger;
 function menuBurger() {
   console.log("burger");
   document.getElementsByTagName("nav")[0].style.position = "absolute";
-  document.getElementsByTagName("nav")[0].style.right = 0 + "px";
+  document.getElementsByTagName("nav")[0].style.right = 120 + "px";
   document.getElementById("closeBtn").style.display = "flex";
   document.getElementById("closeBtn").onclick = closeMenu;
   document.getElementById("closeBtn").style.position = "relative";

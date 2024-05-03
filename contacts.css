@@ -49,7 +49,7 @@ font-family: InterM;
     font-family: InterExBoIt;
     }
 
-    #fir h3{
+    #fir h3,#divText{
         border-radius: 40px;
         border: 1px solid black;
     }
@@ -60,6 +60,7 @@ font-family: InterM;
         font-size: 32px;
     }
 #cns{
+    border: 0px solid black;
     margin-bottom: 30px;
 }
 #call{
@@ -70,6 +71,8 @@ font-family: InterM;
     align-items: center;
     justify-content: center;
     margin: 0;
+    border: 1px solid black;
+    border-radius: 40px;
 }
 
     #call p{
@@ -78,17 +81,20 @@ font-family: InterM;
     }
 
     #callText{
+        border: 0px solid black;
         font-size: 32px;
         font-family: InterR;
         font-weight: normal;
     }
     #callBold{
+        border: 0px solid black;
         display: flex;
         align-items: flex-end;
 font-family: InterB;
 font-size: 32px;
     }
     #callBlue{
+        border: 0px solid black;
         display: flex;
         align-items: flex-end;
         font-family: InterR;
@@ -127,6 +133,7 @@ font-size: 32px;
     }
 
     #socials{
+        border: 0px solid black;
         display: flex;
         flex-direction: row;
         gap: 50px;
