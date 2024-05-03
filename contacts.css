@@ -25,12 +25,12 @@
 
 #fir{
     border-top: 1px solid black;
-width: 1200px;
+width: 83,3vw;
 height: 619px;
-padding-left: 120px;
-padding-right: 120px;
-padding-top: 70px;
-padding-bottom: 55px;
+padding-left: 8.3vw;
+padding-right: 8.3vw;
+padding-top: 4.8vw;
+padding-bottom: 3.8vw;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -40,8 +40,8 @@ align-items: center;
     font-weight: normal;
     text-align: center;
     margin: 0%;
-    margin-bottom: 55px;
-font-size: 64px;
+    margin-bottom: 3.8vw;
+font-size: 4vw;
 font-family: InterM;
 }
 
@@ -57,14 +57,14 @@ font-family: InterM;
     .firIns{
         display: flex;
         gap: 30px;
-        font-size: 32px;
+        font-size: 2.2vw;
     }
 #cns{
     border: 0px solid black;
     margin-bottom: 30px;
 }
 #call{
-    width: 669px;
+    width: 46.4vw;
     height: 203px;
     display: flex;
     flex-direction: column;
@@ -77,12 +77,12 @@ font-family: InterM;
 
     #call p{
         margin: 0%;
-        font-size: 32px;
+        font-size: 2.2vw;
     }
 
     #callText{
         border: 0px solid black;
-        font-size: 32px;
+        font-size: 2.2vw;
         font-family: InterR;
         font-weight: normal;
     }
@@ -91,7 +91,7 @@ font-family: InterM;
         display: flex;
         align-items: flex-end;
 font-family: InterB;
-font-size: 32px;
+font-size: 2.2vw;
     }
     #callBlue{
         border: 0px solid black;
@@ -100,7 +100,7 @@ font-size: 32px;
         font-family: InterR;
         color: #4159BB;
         font-weight: normal;
-        font-size: 32px;
+        font-size: 2.2vw;
 
     }
 
@@ -113,9 +113,9 @@ font-size: 32px;
         font-style: normal;
     }
 
-    #time{font-size: 32px;
+    #time{font-size: 2.2vw;
         margin: 0;
-        width: 501px;
+        width: 34.7vw;
         height: 203px;
         font-family: InterR;
         font-weight: normal;
@@ -138,12 +138,12 @@ font-size: 32px;
         border: 0px solid black;
         display: flex;
         flex-direction: row;
-        gap: 50px;
-        width: 478px;
+        gap: 3.6vw;
+        width: 33.1vw;
         height: 82px;
     }
 #subsText{
-    font-size: 32px;
+    font-size: 2.2vw;
     border: 0px solid rgba(226, 46, 46, 0);
     text-align: center;
     font-family: InterR;
@@ -153,7 +153,7 @@ font-size: 32px;
 #subs{
     border: 1px solid black;
     border-radius: 40px;
-    width: 1200px;
+    width: 83.3vw;
     height: 203px;
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ font-size: 32px;
     
     /*padding-bottom: 50px;*/
     align-items: center;
-width: 1440px;
+width: 100vw;
 height: 690px;
 background-color: #4159BB;
 display: flex;
@@ -181,6 +181,7 @@ gap: 50px;
     font-size: 36px;
     margin: 0%;
     margin-top: 50px;
+    text-align: center;
 }
 
 #sec h4 em{
@@ -190,7 +191,7 @@ gap: 50px;
 }
 
 #sec div{
-    width: 1440px;
+    width: 100vw;
     height: 500px;
     background-image: url('map.png');
     background-position: center;
@@ -205,11 +206,10 @@ gap: 50px;
 
 #thi{
     padding-top: 75px;
-padding-left: 120px;
-padding-right: 120px;
-width: 1115px;
-padding-left: 205px;
-padding-right: 120px;
+
+width: 77.4vw;
+padding-left: 14.2vw;
+padding-right: 8.3vw;
 height: 363px;
 gap: 100px;
 display: flex;
@@ -224,10 +224,10 @@ flex-direction: row;
 #thi article{
     display: flex;
     flex-direction: column;
-    gap: 21px;
-    font-size: 24px;
+    gap: 1.4vw;
+    font-size: 1.6vw;
     font-family: InterR;
-    width: 687px;
+    width: 47.7vw;
     line-height: 25px;
 }
 
@@ -242,7 +242,7 @@ flex-direction: row;
 }
 
 .logo{
-    width: 328px;
+    width: 22.7vw;
     height: 81px;
     background-image: url('logoBlack.png');
     background-position: center;
@@ -264,17 +264,17 @@ border-bottom: 1px solid black;
 }
 
 #fou{
-padding-left: 120px;
-padding-right: 120px;
-width: 1200px;
+padding-left: 8.3vw;
+padding-right: 8.3vw;
+width: 83.3vw;
 height: 317px;
 }
 
 #fou{
     height: 447px;
-    width: 1200px;
-    padding-left: 120px;
-    padding-right: 120px;
+    width: 83.3vw;
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
     
     display: flex;
     align-items: center;
@@ -282,14 +282,14 @@ height: 317px;
 }
 #fou form{
     display: flex;
-    width: 1200px;
+    width: 83.3vw;
     height: 166.9px;
     justify-content: space-between;
     align-items: center;
     padding-top: 77.5px;
     padding-bottom: 77.5px;
-    padding-left: 93px;
-    padding-right:93px;
+    padding-left: 6.4vw;
+    padding-right:6.4vw;
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -299,14 +299,14 @@ height: 317px;
 #fou form aside{
 display: flex;
 flex-direction: column;
-width: 383px;
+width: 26.5vw;
 height: 162px;
 gap: 18px;
 align-items: center
 }
 
 #fou form article{
-width: 557px;
+width: 38.6vw;
 font-family: InterR;
 font-weight: lighter;
 }
@@ -315,7 +315,7 @@ font-weight: lighter;
     font-family: InterM;
     font-weight: lighter;
     margin: 0%;
-    font-size: 47px;
+    font-size: 3.2vw;
     margin-bottom: 6px;
 }
 
@@ -325,7 +325,7 @@ font-weight: lighter;
 }
 
 #fou button{
-    width:260px;
+    width:18vw;
     height: 42px;
     
     
@@ -342,7 +342,7 @@ font-weight: lighter;
     border: 1px solid #999EAD;
     background-color: rgba(0, 0, 128, 0);
     border-radius: 10px;
-width: 383px;
+width: 26.5vw;
 padding-left: 17px;
 
 }

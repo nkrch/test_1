@@ -1,13 +1,297 @@
+@media screen and (min-width:1440px) {
+    body{
+        width: 1440px;
+        margin: 0;
+        font-family: Inter;
+        /*overflow-x: hidden;*/
+    }
+    
+    #fir{
+        width: 1440px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    @font-face {
+        font-family: InterExBoIt;
+        src: url('Inter-ExtraBoldItalic.otf');
+    }
+    #fir h2 em{
+        font-style: normal;
+        font-family: InterExBoIt;
+        
+    }
+    
+    #fir{
+        padding-left: 120px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1320px;
+    }
+    
+    
+    
+    #fir article h2{
+        font-size: 64px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+    
+    #fir article p{
+        font-size: 16px;
+        margin-bottom: 3.3vh;
+        width: 90%;
+    }
+    
+    #fir article{
+        width: 38%;
+        
+    }
+    
+    #fir article button{
+        width: 295px;
+        margin-left: 71px;
+        height: 46px;
+        font-family: Inter;
+        font-size: 14.8px;
+        border-radius: 40px;
+        background-color: #4159BB;
+        border: 0cap;
+        color: white;
+    }
+    #carousel{
+        border-top-left-radius: 34px;
+        border-bottom-left-radius: 34px;
+        
+        width: 641px;
+        height: 342px;
+        background-color: #B2C1E2;
+    }
+    
+    #sec{
+        width: 1440px;
+        height: 582px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #sec-cont{
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        height: 450px;
+    }
+    
+    .headingLang h3{
+        font-size: 24px;
+        width: 60%;
+        margin: 0;
+        margin-bottom: 2vh;
+    }
+    
+    .headingLang{
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    
+    #brFlag,#geFlag,#spFlag{
+        
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -2vh;
+        width: 67px;
+        height: 63px;
+    }
+    #brFlag{
+        background-image: url('brFlag.png');
+    }
+    #geFlag{
+        background-image: url('geFlag.png');
+    }
+    #spFlag{
+    background-image: url('spFlag.png');
+    }
+    
+    .langCard p{
+        
+        margin: 0;
+        
+    }
+    
+    .langCard{
+        padding-top: 55px;
+        padding-bottom: 55px;
+        
+        padding-left: 35px;
+        padding-right: 35px;
+        font-size: 20px;
+        width: 310px;
+        height: 339px;
+        border: 1px solid black;
+        border-radius: 25px;
+    
+    }
+    @font-face {
+        font-family: InterSemiBold;
+        src: url('Inter-SemiBold.otf');
+    }
+    .langCard em{
+        font-style: normal;
+        font-family: InterSemiBold;
+    }
+    .langCard p{
+        font-size: 20px;
+    }
+    
+    .langCard-p{
+        display: flex;
+        flex-direction: column;
+        height: 230px;
+        width: 310px;
+        justify-content: space-around
+    }
+    
+    #thi{
+    height: 218px;
+    width: 1200px;
+    background-color: #4159BB;
+    padding-left: 120px;
+        padding-right: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    
+    #friendAdd{
+    
+    color: white;
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: 500;
+    }
+    #dance{
+    width: 236px;
+    height: 128px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('dance.png');
+    }
+    #weekFree{
+    
+    color: white;
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 500;
+    text-align: end;
+    }
+    
+    #weekFree em{
+        font-style: normal;
+        font-family: InterExBoIt;
+    }
+    
+    #fou{
+        height: 447px;
+        width: 1200px;
+        padding-left: 120px;
+        padding-right: 120px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #fou form{
+        display: flex;
+        width: 1200px;
+        height: 166.9px;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 77.5px;
+        padding-bottom: 77.5px;
+        padding-left: 93px;
+        padding-right:93px;
+        border: 1px solid black;
+        border-radius: 30px;
+    }
+    
+    /*comment*/
+    
+    #fou form aside{
+    display: flex;
+    flex-direction: column;
+    width: 383px;
+    height: 162px;
+    gap: 18px;
+    align-items: center
+    }
+    
+    #fou form article{
+    width: 557px;
+    }
+    
+    #fou form article h2{
+        margin: 0%;
+        font-size: 47px;
+        margin-bottom: 6px;
+    }
+    
+    #fou form em{
+        font-style: normal;
+        font-family: InterExBoIt;
+    }
+    
+    #fou button{
+        width:260px;
+        height: 42px;
+        
+        
+        font-family: Inter;
+        font-size: 14.8px;
+        border-radius: 40px;
+        background-color: #4159BB;
+        border: 0cap;
+        color: white;
+    }
+    
+    #fou input{
+        height: 42px;
+        border: 1px solid #999EAD;
+        background-color: rgba(0, 0, 128, 0);
+        border-radius: 10px;
+    width: 383px;
+    padding-left: 17px;
+    
+    }
+    
+    #fou input::placeholder{
+        font-family: Inter;
+        
+    }
+    
+    
+    
+    
+}
 
 body{
-    width: 1440px;
+    width: 100vw;
     margin: 0;
     font-family: Inter;
     /*overflow-x: hidden;*/
 }
 
 #fir{
-    width: 1440px;
+    width: 100vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -23,26 +307,26 @@ body{
 }
 
 #fir{
-    padding-left: 120px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-left: 8vw;
+    padding-top: 3.8vw;
+    padding-bottom: 3.8vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1320px;
+    width: 91.6vw;
 }
 
 
 
 #fir article h2{
-    font-size: 64px;
-    margin-bottom: 5px;
+    font-size: 4vw;
+    margin-bottom: 0.3vw;
     font-weight: 700;
     margin-top: 0;
 }
 
 #fir article p{
-    font-size: 16px;
+    font-size: 1.1vw;
     margin-bottom: 3.3vh;
     width: 90%;
 }
@@ -53,11 +337,11 @@ body{
 }
 
 #fir article button{
-    width: 295px;
-    margin-left: 71px;
-    height: 46px;
+    width: 20.4vw;
+    margin-left: 4.9vw;
+    height: 3.1vw;
     font-family: Inter;
-    font-size: 14.8px;
+    font-size: 1vw;
     border-radius: 40px;
     background-color: #4159BB;
     border: 0cap;
@@ -67,14 +351,14 @@ body{
     border-top-left-radius: 34px;
     border-bottom-left-radius: 34px;
     
-    width: 641px;
-    height: 342px;
+    width: 44vw;
+    height: 23.7vw;
     background-color: #B2C1E2;
 }
 
 #sec{
-    width: 1440px;
-    height: 582px;
+    width: 100vw;
+    height: 40.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,15 +369,15 @@ body{
     
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    height: 450px;
+    width: 83.3vw;
+    height: 31.2vw;
 }
 
 .headingLang h3{
-    font-size: 24px;
+    font-size: 1.6vw;
     width: 60%;
     margin: 0;
-    margin-bottom: 2vh;
+    margin-bottom: 2vw;
 }
 
 .headingLang{
@@ -108,8 +392,8 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -2vh;
-    width: 67px;
-    height: 63px;
+    width: 4.6vw;
+    height: 4.3vw;
 }
 #brFlag{
     background-image: url('brFlag.png');
@@ -128,14 +412,14 @@ background-image: url('spFlag.png');
 }
 
 .langCard{
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 3.8vw;
+    padding-bottom: 3.8vw;
     
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 20px;
-    width: 310px;
-    height: 339px;
+    padding-left: 2.4vw;
+    padding-right: 2.4vw;
+    font-size:1.3vw;
+    width: 21.5vw;
+    height: 23.5vw;
     border: 1px solid black;
     border-radius: 25px;
 
@@ -149,23 +433,23 @@ background-image: url('spFlag.png');
     font-family: InterSemiBold;
 }
 .langCard p{
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .langCard-p{
     display: flex;
     flex-direction: column;
-    height: 230px;
-    width: 310px;
+    height: 15.9vw;
+    width: 21.5vw;
     justify-content: space-around
 }
 
 #thi{
-height: 218px;
-width: 1200px;
+height: 15.1vw;
+width: 83.3vw;
 background-color: #4159BB;
-padding-left: 120px;
-    padding-right: 120px;
+padding-left: 8.3vw;
+    padding-right: 8.3vw;
     display: flex;
     align-items: center;
     justify-content: space-between
@@ -175,12 +459,12 @@ padding-left: 120px;
 
 color: white;
 font-family: Inter;
-font-size: 46px;
+font-size: 3.1vw;
 font-weight: 500;
 }
 #dance{
-width: 236px;
-height: 128px;
+width: 16.3vw;
+height: 8.8vw;
 background-position: center;
 background-size: contain;
 background-repeat: no-repeat;
@@ -190,7 +474,7 @@ background-image: url('dance.png');
 
 color: white;
 font-family: Inter;
-font-size: 47px;
+font-size: 3.2vw;
 font-weight: 500;
 text-align: end;
 }
@@ -201,10 +485,10 @@ text-align: end;
 }
 
 #fou{
-    height: 447px;
-    width: 1200px;
-    padding-left: 120px;
-    padding-right: 120px;
+    height: 31vw;
+    width: 83.3vw;
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
     
     display: flex;
     align-items: center;
@@ -212,14 +496,14 @@ text-align: end;
 }
 #fou form{
     display: flex;
-    width: 1200px;
-    height: 166.9px;
+    width: 83.3vw;
+    height: 9.7vw;
     justify-content: space-between;
     align-items: center;
-    padding-top: 77.5px;
-    padding-bottom: 77.5px;
-    padding-left: 93px;
-    padding-right:93px;
+    padding-top: 5.3vw;
+    padding-bottom: 5.3vw;
+    padding-left: 6.4vw;
+    padding-right:6.4vw;
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -229,19 +513,19 @@ text-align: end;
 #fou form aside{
 display: flex;
 flex-direction: column;
-width: 383px;
-height: 162px;
-gap: 18px;
+width: 26.5vw;
+height: 11.2vw;
+gap: 1.2vw;
 align-items: center
 }
 
 #fou form article{
-width: 557px;
+width: 38.6vw;
 }
 
 #fou form article h2{
     margin: 0%;
-    font-size: 47px;
+    font-size: 3.2vw;
     margin-bottom: 6px;
 }
 
@@ -251,12 +535,12 @@ width: 557px;
 }
 
 #fou button{
-    width:260px;
-    height: 42px;
+    width: 18vw;
+    height: 2.9vw;
     
     
     font-family: Inter;
-    font-size: 14.8px;
+    font-size: 1vw;
     border-radius: 40px;
     background-color: #4159BB;
     border: 0cap;
@@ -264,12 +548,12 @@ width: 557px;
 }
 
 #fou input{
-    height: 42px;
+    height: 2.9vw;
     border: 1px solid #999EAD;
     background-color: rgba(0, 0, 128, 0);
     border-radius: 10px;
-width: 383px;
-padding-left: 17px;
+width: 26.5vw;
+padding-left: 1.1vw;
 
 }
 

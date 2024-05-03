@@ -1,6 +1,6 @@
 @media (max-width: 769px){
     body{
-        width: 768px;
+        width: 100vw;
     }
     body, html {
         overflow-x: hidden;
@@ -33,12 +33,12 @@
     
     #fir{
         border-top: 1px solid black;
-    width: 648px;
-    height: 851px;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 70px;
-    padding-bottom: 55px;
+    width: 83.3vw;
+    height: 110.8vw;
+    padding-left: 8.3vw;
+    padding-right: 8.3vw;
+    padding-top: 9.1vw;
+    padding-bottom: 7.1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@
         text-align: center;
         margin: 0%;
         margin-bottom: 42px;
-    font-size: 48px;
+    font-size: 6.25vw;
     font-family: InterM;
     }
     
@@ -65,16 +65,18 @@
         .firIns{
             display: flex;
             
-            gap: 30px;
-            font-size: 32px;
+            gap: 3.9vw;
+            font-size: 4.1vw;
         }
     #cns{
-        margin-bottom: 30px;
+        margin-bottom: 3.9vw;
         flex-direction: column;
     }
+
+
     #call{
-        width: 640px;
-        height: 203px;
+        width: 83.3vw;
+        height: 26.4vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,11 +88,11 @@
     
         #call p{
             margin: 0%;
-            font-size: 32px;
+            font-size: 4.1vw;
         }
     
         #callText{
-            font-size: 32px;
+            font-size: 4.1vw;
             font-family: InterR;
             font-weight: normal;
         }
@@ -98,7 +100,7 @@
             display: flex;
             align-items: flex-end;
     font-family: InterB;
-    font-size: 32px;
+    font-size: 4.1vw;
         }
         #callBlue{
             display: flex;
@@ -106,7 +108,7 @@
             font-family: InterR;
             color: #4159BB;
             font-weight: normal;
-            font-size: 32px;
+            font-size: 4.1vw;
     
         }
     
@@ -119,10 +121,10 @@
             font-style: normal;
         }
     
-        #time{font-size: 32px;
+        #time{font-size: 4.1vw;
             margin: 0;
-            width: 640px;
-            height: 169px;
+            width: 83.3vw;
+            height: 22.0vw;
             font-family: InterR;
             font-weight: normal;
             display: flex;
@@ -141,12 +143,17 @@
         #socials{
             display: flex;
             flex-direction: row;
-            gap: 50px;
-            width: 478px;
-            height: 82px;
+            gap: 6.5vw;
+            width: 62.2vw;
+            height: 10.6vw;
+        }
+
+        #socials svg{
+            width: 10.6vw;
+            height: 10.6vw;
         }
     #subsText{
-        font-size: 32px;
+        font-size: 4.1vw;
         border: 0px solid rgba(226, 46, 46, 0);
         text-align: center;
         font-family: InterR;
@@ -156,13 +163,13 @@
     #subs{
         border: 1px solid black;
         border-radius: 40px;
-        width: 640px;
-        height: 277px;
+        width: 83.3vw;
+        height: 36vw;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 33px;
+        gap: 4.2vw;
     }
 
     #subs h4{
@@ -172,23 +179,23 @@
         
         /*padding-bottom: 50px;*/
         align-items: center;
-    width: 768px;
-    height: 690px;
+    width: 100vw;
+    height: 89.8vw;
     background-color: #4159BB;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 6.5vw;
     }
     
     #sec h4{
-        line-height: 40px;
+        line-height: 5.2vw;
         font-family: InterSemiBold;
         color: white;
         font-weight: lighter;
         text-transform: uppercase;
-        font-size: 36px;
+        font-size: 4.6vw;
         margin: 0%;
-        margin-top: 50px;
+        margin-top: 6.5vw;
         align-self: center;
         text-align: center;
     }
@@ -200,8 +207,8 @@
     }
     
     #sec div{
-        width: 768px;
-        height: 500px;
+        width: 100vw;
+        height: 65.1vw;
         background-image: url('map.png');
         background-position: center;
         background-size: contain;
@@ -218,11 +225,11 @@
         padding-top: 75px;
     padding-top: 60px;
     
-    width: 647px;
-    padding-left: 60.5px;
-    padding-right: 60.5px;
-    height: 560px;
-    gap: 48px;
+    width: 84.2vw;
+    padding-left: 7.8vw;
+    padding-right: 7.8vw;
+    height: 72.9vw;
+    gap: 6.2vw;
     display: flex;
     flex-direction: column;
     
@@ -235,27 +242,27 @@
     #thi article{
         display: flex;
         flex-direction: column;
-        gap: 21px;
-        font-size: 24px;
+        gap: 2.7vw;
+        font-size: 3.1vw;
         font-family: InterR;
-        width: 636px;
-        height: 363px;
-        line-height: 25px;
+        width: 82.8vw;
+        height: 47.2vw;
+        line-height: 3.2vw;
     }
     
     #thi p{
         font-family: InterR;
         font-weight: normal;
-        font-size: 24px;
+        font-size: 3.1vw;
     }
     
     #thi h5{
-        font-size: 24px;
+        font-size: 3.1vw;
         font-family: InterSemiBold;
     }
     
     .logo{
-        width: 328px;
+        width: 42.7vw;
         align-self: center;
         height: 81px;
         background-image: url('logo_B.png');
@@ -280,9 +287,9 @@
     
     
     #fou{
-        width: 647px;
-    padding-left: 60.5px;
-    padding-right: 60.5px;
+        width: 84.2vw;
+    padding-left: 7.8vw;
+    padding-right: 7.8vw;
         
         display: flex;
         align-items: center;
@@ -290,7 +297,7 @@
     }
     #fou form{
         display: flex;
-        width: 557px;
+        width: 72.5vw;
         height: 355px;
         justify-content: space-between;
         align-items: center;
@@ -315,7 +322,7 @@
     }
     
     #fou form article{
-    width: 557px;
+    width: 72.5vw;
     font-family: InterR;
     font-weight: lighter;
     text-align: center;
@@ -326,8 +333,8 @@
         font-family: InterM;
         font-weight: lighter;
         margin: 0%;
-        font-size: 47px;
-        margin-bottom: 6px;
+        font-size: 6.1vw;
+        margin-bottom: 0.7vw;
     }
     
     #fou form em{
@@ -353,7 +360,7 @@
         border: 1px solid #999EAD;
         background-color: rgba(0, 0, 128, 0);
         border-radius: 10px;
-    width: 383px;
+    width: 49.8vw;
     padding-left: 17px;
     
     }

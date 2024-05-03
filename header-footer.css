@@ -1,10 +1,10 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding-left:120px;
-    padding-right:120px;
+    padding-left:8.3vw;
+    padding-right:8.3vw;
     height: 84px;
-    width: 1200px;
+    width: 83.3vw;
     align-items: center;
     position: fixed;
     background-color: white;
@@ -33,7 +33,7 @@ header nav{
     max-width: 350px ;*/
     margin-left: 0;
     padding-left: 0;
-    width: 591px;
+    width: 41vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap
@@ -94,6 +94,7 @@ header button svg{
 }
 
 footer{
+    width: 100vw;
     height: 252px;
     background-color: #4159BB;
     display: flex;

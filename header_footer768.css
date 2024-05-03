@@ -18,10 +18,10 @@
     header{
         display: flex;
         justify-content: space-between;
-        padding-left:60px;
-        padding-right:60px;
+        padding-left:7.8vw;
+        padding-right:7.8vw;
         height: 100px;
-        width: 644px;
+        width: 84.4vw;
         align-items: center
     }
     header button{
@@ -69,7 +69,7 @@
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-bottom: 4vh;
+        margin-bottom: 30px;
         font-family: Inter;
         transform: scaleY(1.05);
         flex-direction: column;
@@ -103,7 +103,7 @@
     }
     
     footer{
-        width: 768px;
+        width: 100vw;
         height: 262px;
         background-color: #4159BB;
         display: flex;

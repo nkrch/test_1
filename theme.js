@@ -6,6 +6,7 @@ const body = document.getElementsByTagName("body")[0],
   li = document.getElementsByTagName("li"),
   h3 = document.getElementsByTagName("h3"),
   h4 = document.getElementsByTagName("h4"),
+  article = document.getElementsByTagName("article"),
   main = document.getElementsByTagName("main"),
   header = document.getElementsByTagName("header"),
   form = document.getElementsByTagName("form"),
@@ -94,7 +95,9 @@ function colors(objTheme) {
   invertF(objTheme);
   body.style.backgroundColor = objTheme.background;
   body.style.color = objTheme.color;
-
+  document.getElementById(
+    "menuBurger"
+  ).style.filter = `invert(${objTheme.mainBtnInvert})`;
   colorFC(buttons, objTheme);
   colorFC(h3, objTheme);
   borderColorFC(h3, objTheme);
@@ -110,6 +113,7 @@ function colors(objTheme) {
   colorFC(input, objTheme);
   colorFC(li, objTheme);
   borderColorFC(li, objTheme);
+  borderColorFC(article, objTheme);
   bcrColor(header, objTheme);
   borderColorFC(header, objTheme);
   borderColorFC(div, objTheme);
