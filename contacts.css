@@ -26,7 +26,7 @@
 #fir{
     border-top: 1px solid black;
 width: 83,3vw;
-height: 619px;
+height: 42.9vw;
 padding-left: 8.3vw;
 padding-right: 8.3vw;
 padding-top: 4.8vw;
@@ -65,7 +65,7 @@ font-family: InterM;
 }
 #call{
     width: 46.4vw;
-    height: 203px;
+    height: 14vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ font-size: 2.2vw;
     #time{font-size: 2.2vw;
         margin: 0;
         width: 34.7vw;
-        height: 203px;
+        height: 14vw;
         font-family: InterR;
         font-weight: normal;
         display: flex;
@@ -140,7 +140,7 @@ font-size: 2.2vw;
         flex-direction: row;
         gap: 3.6vw;
         width: 33.1vw;
-        height: 82px;
+        height: 5.6vw;
     }
 #subsText{
     font-size: 2.2vw;
@@ -154,7 +154,7 @@ font-size: 2.2vw;
     border: 1px solid black;
     border-radius: 40px;
     width: 83.3vw;
-    height: 203px;
+    height: 14.0vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +165,7 @@ font-size: 2.2vw;
     /*padding-bottom: 50px;*/
     align-items: center;
 width: 100vw;
-height: 690px;
+height: 47.9vw;
 background-color: #4159BB;
 display: flex;
 flex-direction: column;
@@ -173,12 +173,12 @@ gap: 50px;
 }
 
 #sec h4{
-    line-height: 40px;
+    line-height: 2.7vw;
     font-family: InterSemiBold;
     color: white;
     font-weight: lighter;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 2.5vw;
     margin: 0%;
     margin-top: 50px;
     text-align: center;
@@ -192,7 +192,7 @@ gap: 50px;
 
 #sec div{
     width: 100vw;
-    height: 500px;
+    height: 34.7vw;
     background-image: url('map.png');
     background-position: center;
     background-size: contain;
@@ -201,17 +201,17 @@ gap: 50px;
 #thiXfou{
     display: flex;
     flex-direction: column;
-    gap: 75px;
+    gap: 5.2vw;
 }
 
 #thi{
-    padding-top: 75px;
+    padding-top: 5.2vw;
 
 width: 77.4vw;
 padding-left: 14.2vw;
 padding-right: 8.3vw;
-height: 363px;
-gap: 100px;
+height: 25.2vw;
+gap: 6.9vw;
 display: flex;
 flex-direction: row;
 
@@ -228,7 +228,7 @@ flex-direction: row;
     font-size: 1.6vw;
     font-family: InterR;
     width: 47.7vw;
-    line-height: 25px;
+    line-height: 1.6vw;
 }
 
 #thi p{
@@ -237,7 +237,7 @@ flex-direction: row;
 }
 
 #thi h5{
-    font-size: 24px;
+    font-size: 1.6vw;
     font-family: InterSemiBold;
 }
 
@@ -267,7 +267,7 @@ border-bottom: 1px solid black;
 padding-left: 8.3vw;
 padding-right: 8.3vw;
 width: 83.3vw;
-height: 317px;
+height: 22vw;
 }
 
 #fou{
@@ -286,8 +286,8 @@ height: 317px;
     height: 166.9px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 77.5px;
-    padding-bottom: 77.5px;
+    padding-top: 5.3vw;
+    padding-bottom: 5.3vw;
     padding-left: 6.4vw;
     padding-right:6.4vw;
     border: 1px solid black;
