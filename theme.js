@@ -6,6 +6,7 @@ const body = document.getElementsByTagName("body")[0],
   h3 = document.getElementsByTagName("h3"),
   h4 = document.getElementsByTagName("h4"),
   main = document.getElementsByTagName("main"),
+  header = document.getElementsByTagName("header"),
   form = document.getElementsByTagName("form"),
   input = document.getElementsByTagName("input"),
   whiteBtn = document.getElementsByClassName("whiteBtn"),
@@ -108,7 +109,8 @@ function colors(objTheme) {
   colorFC(input, objTheme);
   colorFC(li, objTheme);
   borderColorFC(li, objTheme);
-
+  bcrColor(header, objTheme);
+  borderColorFC(header, objTheme);
   borderColorFC(main, objTheme);
 }
 
@@ -137,7 +139,12 @@ function borderColorFC(arr, objTheme) {
   }
 }
 
-function bcrColor(arr, objTheme) {}
+function bcrColor(arr, objTheme) {
+  for (let i = 0; i < arr.length; i++) {
+    const element = arr[i];
+    element.style.backgroundColor = objTheme.background;
+  }
+}
 
 function whiteCLR(arr) {
   for (let i = 0; i < arr.length; i++) {

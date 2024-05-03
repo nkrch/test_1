@@ -5,7 +5,14 @@ header{
     padding-right:120px;
     height: 84px;
     width: 1200px;
-    align-items: center
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 5;
+}
+main{
+    padding-top: 84px;
 }
 header button{
     background-color: rgba(250, 235, 215, 0);
@@ -117,4 +124,13 @@ footer p{
     color: #B2C1E2;
     font-size: 14px;
     font-family: Inter;
+}
+
+#menuBurger{
+    position: unset;
+}
+
+#closeBtn{
+    position: unset;
+    display: none;
 }

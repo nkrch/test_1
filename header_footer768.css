@@ -1,0 +1,139 @@
+@media (max-width: 769px){
+
+    header nav{
+        /*min-width: 42%;
+        
+        max-width: 350px ;*/
+        margin-left: 0;
+        padding-left: 0;
+        width: 251px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: absolute;
+        right: -251px;
+        
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-left:60px;
+        padding-right:60px;
+        height: 100px;
+        width: 644px;
+        align-items: center
+    }
+    header button{
+        
+        border: 0ch;
+        font-size:1vh;
+        
+        
+    }
+    
+    #headerMenu{
+        display: flex;
+        flex-direction: row;
+        width: 50vw;
+    }
+    
+    
+#menuBurger{
+    
+    width: 60px;
+    height: 30px;
+    background-image: url('menu.png');
+        background-position: center;
+        background-size: contain;
+}
+
+    #navElem{
+        min-width: 42%;
+        margin-left: 0;
+        padding-left: 0;
+        max-width: 350px ;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+    
+    @font-face {
+        font-family: Inter;
+        src: url('Inter-V.ttf');
+    }
+    #mainBtn{
+        margin-top: 4vh;
+        width: 184px;
+        height: 38px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 4vh;
+        font-family: Inter;
+        transform: scaleY(1.05);
+        flex-direction: column;
+        background-image: url('logoBlack.png');
+    }
+    
+    .menuH-btn{
+    font-size: 14px;
+    }
+    header button,a{
+        text-decoration: none;
+        color: black;
+        display: flex;
+        align-items: center;
+        font-family: Inter;
+    }
+    
+    header button svg{
+        margin-top: 4.7px;
+        margin-right: -5.5px;
+    }
+    
+    #moonImg{
+        width: 18px;
+        height: 18px;
+        margin-right: 0.5vw;
+        margin-top: -2px;
+        background-size: contain;
+        background-position: center;
+        background-image: url('moon.png');
+    }
+    
+    footer{
+        width: 768px;
+        height: 262px;
+        background-color: #4159BB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    @font-face {
+        font-family: InterEm;
+        src: url('Inter-BoldItalic.otf');
+    }
+    
+    footer h4{
+    font-family: InterEm;
+    color: white;
+    font-size: 35px;
+    margin: 0%;
+    }
+    footer div{
+        width: 184px;
+        display: flex;
+        
+        justify-content: space-around
+    }
+    footer p{
+        color: #B2C1E2;
+        font-size: 14px;
+        font-family: Inter;
+    }
+    
+}
