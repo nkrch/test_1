@@ -23,6 +23,10 @@ if (document.getElementById("post") != null) {
   document.getElementById("post").onclick = postFunc;
 }
 
+if (document.getElementById("adr") != null) {
+  document.getElementById("adr").onclick = adrFunc;
+}
+
 function postFunc(params) {
   console.log("post");
   window.open(
@@ -36,4 +40,9 @@ if (document.getElementById("phoneCall") != null) {
 
 function phoneCall() {
   location.href = "tel:80295536745";
+}
+
+function adrFunc() {
+  location.href =
+    "https://yandex.by/maps/157/minsk/house/Zk4YcwJiSkIFQFtpfXVxcXtkYw==/?indoorLevel=1&ll=27.552372%2C53.900778&utm_medium=mapframe&utm_source=maps&z=16.61";
 }

@@ -73,7 +73,7 @@
     }
     
     #sec{
-        width: 1440px;
+        width: 100vw;
         height: 582px;
         display: flex;
         align-items: center;

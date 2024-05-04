@@ -36,7 +36,10 @@ header nav{
     width: 41vw;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    position: relative;
+    right: 0%;
+    padding-right: 8.3vw;
 }
 
 #navElem{

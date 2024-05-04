@@ -30,7 +30,7 @@ main button:hover{
     border: 1px solid #4159BB;
     background-color: rgb(255, 255, 255);
     transition-duration: 500ms;
-    color: #4159BB;
+    color: #4159BB !important
 }
 
 

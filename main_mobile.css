@@ -346,4 +346,319 @@ padding-left: 2.2vw;
 }
 }
 
+@media (max-width: 381px){
+    body{
+        width: 100vw;
+        margin: 0;
+        font-family: Inter;
+        /*overflow-x: hidden;*/
+    }
+    main{
+        padding-bottom: 7.1vw;
+    }
+    
+    #fir{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    @font-face {
+        font-family: InterExBoIt;
+        src: url('Inter-ExtraBoldItalic.otf');
+    }
+    #fir h2 em{
+        font-style: normal;
+        font-family: InterExBoIt;
+        
+    }
+    
+    #fir{
+        padding-left: 6.2vw;
+        padding-top: 13.16vw;
+        padding-bottom: 13.16vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 93.7vw;
+        height: 138.84vw;
+        text-align: center;
+    }
+    
+    
+    
+    #fir article h2{
+        font-size: 10.53vw;
+        margin-bottom: 2.63vw;
+        font-weight: 700;
+        margin-top: 0;
+    }
+    
+    #fir article p{
+        font-size: 2vw;
+        margin-bottom: 4.74vh;
+        width: 79vw;
+    }
+    
+    #fir article{
+        width: 81.32vw;
+        height: 31.58vw;
+       margin-left: -6vw;
+        
+    }
+    
+    #fir article button{
+        width: 85.7vw;
+        height: 47.65vw;
+        margin-left: 0;
+        height: 46px;
+        font-family: Inter;
+        font-size: 14.8px;
+        border-radius: 40px;
+        background-color: #4159BB;
+        border: 0cap;
+        color: white;
+    }
+    #carousel{
+        border-top-left-radius: 34px;
+        border-bottom-left-radius: 34px;
+        align-self: flex-end;
+        width: 92.89vw;
+        height: 58.68vw;
+        background-color: #B2C1E2;
+    }
+    
+    #sec{
+        width: 100vw;
+        height: 222vw;
+        padding-top: 5.26vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    #sec-cont{
+        display: flex;
+        gap: 3.95vw;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw       ;
+    }
+    
+    .headingLang h3{
+        font-size: 24px;
+        width: 77.63vw;
+        margin: 0;
+        margin-right: 13.95vw;
+        margin-bottom: 2vh;
+        text-align: start;
+    }
+    
+    .headingLang{
+        width: 73.63vw;
+        margin-left: 3vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    
+    #brFlag,#geFlag,#spFlag{
+        
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -2vh;
+        
+        width: 17.63vw;
+        height: 16.58vw;
+    }
+    #brFlag{
+        background-image: url('brFlag.png');
+    }
+    #geFlag{
+        background-image: url('geFlag.png');
+    }
+    #spFlag{
+    background-image: url('spFlag.png');
+    }
+    
+    .langCard p{
+        
+        margin: 0;
+        
+    }
+    
+    .langCard{
+        padding-top: 5.3vw;
+        padding-bottom: 5.3vw;
+        
+        padding-left: 5.3vw;
+        padding-right: 2.63vw;
+        font-size: 6.32vw;
+        width: 86.31vw;
+        height: 63.87vw;
+        border: 1px solid black;
+        border-radius: 25px;
+    
+    }
+    @font-face {
+        font-family: InterSemiBold;
+        src: url('Inter-SemiBold.otf');
+    }
+    .langCard em{
+        font-style: normal;
+        font-family: InterSemiBold;
+    }
+    .langCard p{
+        font-size: 4.21vw;
+        line-height: 4.21vw;
+    }
+    
+    .langCard-p{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 81.58vw;
+        justify-content: flex-start;
+    gap: 3.8vw;
+    }
+    
+    
+    #thi{
+    height: 56.84vw;
+    width: 67.5vw;
+    background-color: #4159BB;
+    padding-top: 5.2vw;
+    padding-bottom: 5.2vw;
+    padding-left: 16.2vw;
+        padding-right: 16.2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between
+    }
+    
+    #thi h2{
+        margin: 0%;
+        text-align: center;
+    }
+    
+    #friendAdd{
+    
+    color: white;
+    font-family: Inter;
+    font-size: 6.32vw;
+    font-weight: 500;
+    }
+    #dance{
+    width: 33.8vw;
+    height: 16.84vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('dance.png');
+    }
+    #weekFree{
+    
+    color: white;
+    font-family: Inter;
+    font-size: 6.32vw;
+    font-weight: 500;
+    text-align: end;
+    }
+    
+    #weekFree em{
+        font-style: normal;
+        font-family: InterExBoIt;
+    }
+    
+    #fou{
+        width: 84.2vw;
+        padding-top: 5.5vw;
+    padding-left: 7.8vw;
+    padding-right: 7.8vw;
+        height: 85.74vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #fou form{
+        display: flex;
+        width: 90.5vw;
+        height: 74.9vw;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 4.2vw;
+        padding-bottom: 5.2vw;
+        padding-left: 2.3vw;
+        padding-right:2.3vw;
+        border: 1px solid black;
+        border-radius: 7.8vw;
+        flex-direction: column;
+    }
+    
+    /*comment*/
+    
+    #fou form aside{
+    display: flex;
+    flex-direction: column;
+    width: 91.5vw;
+    height: 42.6vw;
+    gap: 2.8vw;
+    align-items: center
+    }
+    
+    #fou form article{
+    width: 72.5vw;
+    font-size: 2.8vw;
+    font-family: InterR;
+    font-weight: lighter;
+    text-align: center;
+    }
+    
+    #fou form article h2{
+        text-align: center;
+        font-family: InterM;
+        font-weight: lighter;
+        margin: 0%;
+        font-size: 23px;
+        margin-bottom: 0.7vw;
+        margin-top: 2.7vw;
+    }
+    
+    #fou form em{
+        font-style: normal;
+        font-family: InterExBoIt;
+    }
+    
+    #fou button{
+        width:68.4vw;
+        height: 11vw;
+        
+        
+        font-family: Inter;
+        font-size: 3.8vw;
+        border-radius: 40px;
+        background-color: #4159BB;
+        border: 0cap;
+        color: white;
+    }
+    
+    #fou input{
+        height: 11vw;
+        border: 1px solid #999EAD;
+        background-color: rgba(0, 0, 128, 0);
+        border-radius: 10px;
+    width: 86.8vw; 
+    padding-left: 17px; 
+    
+    }
+    
+    #fou input::placeholder{
+        font-family: Inter;
+        
+    }
+    }
 
