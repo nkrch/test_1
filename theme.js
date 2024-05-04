@@ -4,6 +4,7 @@ const body = document.getElementsByTagName("body")[0],
   a = document.getElementsByTagName("a"),
   div = document.getElementsByTagName("div"),
   li = document.getElementsByTagName("li"),
+  nav = document.getElementsByTagName("nav"),
   h3 = document.getElementsByTagName("h3"),
   h4 = document.getElementsByTagName("h4"),
   article = document.getElementsByTagName("article"),
@@ -115,6 +116,7 @@ function colors(objTheme) {
   borderColorFC(li, objTheme);
   borderColorFC(article, objTheme);
   bcrColor(header, objTheme);
+  bcrColor(nav, objTheme);
   borderColorFC(header, objTheme);
   borderColorFC(div, objTheme);
   borderColorFC(main, objTheme);
