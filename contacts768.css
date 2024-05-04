@@ -146,6 +146,7 @@
             gap: 6.5vw;
             width: 62.2vw;
             height: 10.6vw;
+            align-items: center
         }
 
         #socials svg{
