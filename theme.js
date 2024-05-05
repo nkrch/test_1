@@ -69,6 +69,7 @@ const lightTheme = {
 function changeTheme() {
   if (theme == "light") {
     theme = "dark";
+    localStorage.setItem("theme01050403", "dark");
     colors(darkTheme);
     objTheme = darkTheme;
     document.getElementById("themeBtn").innerHTML = objTheme.svg + " Тема";
@@ -76,6 +77,7 @@ function changeTheme() {
   } else {
     theme = "light";
     objTheme = lightTheme;
+    localStorage.setItem("theme01050403", "light");
     document.getElementById("themeBtn").innerHTML = objTheme.svg + " Тема";
     colors(lightTheme);
     innerChangeF(objTheme);

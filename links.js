@@ -27,6 +27,15 @@ if (document.getElementById("adr") != null) {
   document.getElementById("adr").onclick = adrFunc;
 }
 
+if (document.getElementById("scrollBottom") != null) {
+  document.getElementById("scrollBottom").onclick = scrollBottom;
+}
+
+function scrollBottom() {
+  let i = document.getElementById("fou").offsetTop - 135;
+  window.scrollTo(0, i);
+}
+
 function postFunc(params) {
   console.log("post");
   window.open(

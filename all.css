@@ -24,6 +24,7 @@ body {
 
 #moonImg {
   background-image: url("moon.png");
+  
 }
 
 main button:hover{
@@ -37,7 +38,7 @@ main button:hover{
 
 
 #fou button:hover,#fir button:hover{
-    
+    transition-duration: 200ms;
         border: 1px solid #4159BB;
         background-color: rgb(255, 255, 255);
         color: #4159BB;
@@ -46,10 +47,15 @@ main button:hover{
 }
 
 #fou button,#fir button{
+    transition-duration: 300ms;
     box-shadow: 0vw 0.5vw 0.25vw 0 rgba(0, 0, 0, 0.318);
     border: 1px solid #4159BB;
     background-color: rgb(255, 255, 255);
     color: #4159BB;
+
+}
+
+.whiteBtn{
 
 }
 
