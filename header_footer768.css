@@ -81,14 +81,14 @@
         background-image: url('logoBlack.png');
     }
     
-    .menuH-btn, nav button{
+    .menu-header-btn, nav button{
     font-size: 5vw;
     height: 24.7%;
     padding-left: 7vw;
     border: 1px solid #8e8e8e00;
     }
 
-    .menuH-btn:active, nav button:active{
+    .menu-header-btn:active, nav button:active{
         background-color: #4159BB;
         }
     header button,a{
@@ -169,14 +169,14 @@
         border: 1px solid #4159BB;
         
     }
-    .menuH-btn, nav button,#closeBtn{
+    .menu-header-btn, nav button,#closeBtn{
         font-size: 5vw;
         height: 23.7%;
         padding-left: 7vw;
         border: 1px solid #8e8e8e00;
         }
     
-        .menuH-btn:active, nav button:active{
+        .menu-header-btn:active, nav button:active{
             background-color: #4159BB;
             }
     header{

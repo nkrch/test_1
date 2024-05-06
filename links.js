@@ -12,7 +12,7 @@ document.getElementById("scrollTop").onclick = scrollTop;
 function scrollTop() {
   console.log("scroll");
 
-  scrollTo(0, 0);
+  window.scrollTo(0, 0);
 }
 
 if (document.getElementById("link") != null) {

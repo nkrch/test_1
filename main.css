@@ -6,7 +6,7 @@
         /*overflow-x: hidden;*/
     }
     
-    #fir{
+    #section-one{
         width: 1440px;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -16,13 +16,13 @@
         font-family: InterExBoIt;
         src: url('Inter-ExtraBoldItalic.otf');
     }
-    #fir h2 em{
+    #section-one h2 em{
         font-style: normal;
         font-family: InterExBoIt;
         
     }
     
-    #fir{
+    #section-one{
         padding-left: 120px;
         padding-top: 55px;
         padding-bottom: 55px;
@@ -34,25 +34,25 @@
     
     
     
-    #fir article h2{
+    #section-one article h2{
         font-size: 64px;
         margin-bottom: 5px;
         font-weight: 700;
         margin-top: 0;
     }
     
-    #fir article p{
+    #section-one article p{
         font-size: 16px;
         margin-bottom: 3.3vh;
         width: 90%;
     }
     
-    #fir article{
+    #section-one article{
         width: 38%;
         
     }
     
-    #fir article button{
+    #section-one article button{
         width: 295px;
         margin-left: 71px;
         height: 46px;
@@ -72,7 +72,7 @@
         background-color: #B2C1E2;
     }
     
-    #sec{
+    #section-two{
         width: 100vw;
         height: 582px;
         display: flex;
@@ -80,7 +80,7 @@
         justify-content: center;
     }
     
-    #sec-cont{
+    #section-two-cont{
         display: flex;
         
         justify-content: space-between;
@@ -160,7 +160,7 @@
         justify-content: space-around
     }
     
-    #thi{
+    #section-three{
     height: 218px;
     width: 1200px;
     background-color: #4159BB;
@@ -200,7 +200,7 @@
         font-family: InterExBoIt;
     }
     
-    #fou{
+    #section-four{
         height: 447px;
         width: 1200px;
         padding-left: 120px;
@@ -210,7 +210,7 @@
         align-items: center;
         justify-content: center;
     }
-    #fou form{
+    #section-four form{
         display: flex;
         width: 1200px;
         height: 166.9px;
@@ -226,7 +226,7 @@
     
     /*comment*/
     
-    #fou form aside{
+    #section-four form aside{
     display: flex;
     flex-direction: column;
     width: 383px;
@@ -235,22 +235,22 @@
     align-items: center
     }
     
-    #fou form article{
+    #section-four form article{
     width: 557px;
     }
     
-    #fou form article h2{
+    #section-four form article h2{
         margin: 0%;
         font-size: 47px;
         margin-bottom: 6px;
     }
     
-    #fou form em{
+    #section-four form em{
         font-style: normal;
         font-family: InterExBoIt;
     }
     
-    #fou button{
+    #section-four button{
         width:260px;
         height: 42px;
         
@@ -263,7 +263,7 @@
         color: white;
     }
     
-    #fou input{
+    #section-four input{
         height: 42px;
         border: 1px solid #999EAD;
         background-color: rgba(0, 0, 128, 0);
@@ -273,7 +273,7 @@
     
     }
     
-    #fou input::placeholder{
+    #section-four input::placeholder{
         font-family: Inter;
         
     }
@@ -290,7 +290,7 @@ body{
     /*overflow-x: hidden;*/
 }
 
-#fir{
+#section-one{
     width: 100vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -300,13 +300,13 @@ body{
     font-family: InterExBoIt;
     src: url('Inter-ExtraBoldItalic.otf');
 }
-#fir h2 em{
+#section-one h2 em{
     font-style: normal;
     font-family: InterExBoIt;
     
 }
 
-#fir{
+#section-one{
     padding-left: 8vw;
     padding-top: 3.8vw;
     padding-bottom: 3.8vw;
@@ -318,25 +318,25 @@ body{
 
 
 
-#fir article h2{
+#section-one article h2{
     font-size: 4vw;
     margin-bottom: 0.3vw;
     font-weight: 700;
     margin-top: 0;
 }
 
-#fir article p{
+#section-one article p{
     font-size: 1.1vw;
     margin-bottom: 3.3vh;
     width: 90%;
 }
 
-#fir article{
+#section-one article{
     width: 38%;
     
 }
 
-#fir article button{
+#section-one article button{
     width: 20.4vw;
     margin-left: 4.9vw;
     height: 3.1vw;
@@ -356,7 +356,7 @@ body{
     background-color: #B2C1E2;
 }
 
-#sec{
+#section-two{
     width: 100vw;
     height: 40.4vw;
     display: flex;
@@ -364,7 +364,7 @@ body{
     justify-content: center;
 }
 
-#sec-cont{
+#section-two-cont{
     display: flex;
     
     justify-content: space-between;
@@ -444,7 +444,7 @@ background-image: url('spFlag.png');
     justify-content: space-around
 }
 
-#thi{
+#section-three{
 height: 15.1vw;
 width: 83.3vw;
 background-color: #4159BB;
@@ -484,7 +484,7 @@ text-align: end;
     font-family: InterExBoIt;
 }
 
-#fou{
+#section-four{
     height: 31vw;
     width: 83.3vw;
     padding-left: 8.3vw;
@@ -494,7 +494,7 @@ text-align: end;
     align-items: center;
     justify-content: center;
 }
-#fou form{
+#section-four form{
     display: flex;
     width: 83.3vw;
     height: 9.7vw;
@@ -510,7 +510,7 @@ text-align: end;
 
 /*comment*/
 
-#fou form aside{
+#section-four form aside{
 display: flex;
 flex-direction: column;
 width: 26.5vw;
@@ -519,22 +519,22 @@ gap: 1.2vw;
 align-items: center
 }
 
-#fou form article{
+#section-four form article{
 width: 38.6vw;
 }
 
-#fou form article h2{
+#section-four form article h2{
     margin: 0%;
     font-size: 3.2vw;
     margin-bottom: 6px;
 }
 
-#fou form em{
+#section-four form em{
     font-style: normal;
     font-family: InterExBoIt;
 }
 
-#fou button{
+#section-four button{
     width: 18vw;
     height: 2.9vw;
     
@@ -547,7 +547,7 @@ width: 38.6vw;
     color: white;
 }
 
-#fou input{
+#section-four input{
     height: 2.9vw;
     border: 1px solid #999EAD;
     background-color: rgba(0, 0, 128, 0);
@@ -557,7 +557,7 @@ padding-left: 1.1vw;
 
 }
 
-#fou input::placeholder{
+#section-four input::placeholder{
     font-family: Inter;
     
 }

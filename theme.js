@@ -84,8 +84,12 @@ function changeTheme() {
   }
 
   function innerChangeF(objTheme) {
-    document.getElementById("subs").style.borderColor = objTheme.color;
-    document.getElementById("adr").style.color = "white";
+    if (document.getElementById("subs")) {
+      document.getElementById("subs").style.borderColor = objTheme.color;
+    }
+    if (document.getElementById("adr")) {
+      document.getElementById("adr").style.color = "white";
+    }
 
     console.log(theme);
   }

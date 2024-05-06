@@ -145,7 +145,7 @@ li{
     
 }
 
-.priceTag{
+.price-tag{
     height: 90px;
     font-family: Inter;
     display: flex;
@@ -154,7 +154,7 @@ li{
 gap: 12px;
 }
 
-.priceTag h5{
+.price-tag h5{
     font-size: 4.2vw;
     
     margin: 0;
@@ -163,7 +163,7 @@ gap: 12px;
    display: flex;
 }
 
-.priceTag button{
+.price-tag button{
     width: 260px;
     height: 42px;
     background-color: #4159BB;
@@ -307,7 +307,7 @@ li{
     
 }
 
-.priceTag{
+.price-tag{
     height: 90px;
     font-family: Inter;
     display: flex;
@@ -317,7 +317,7 @@ gap: 12px;
 margin-top: 2.6vw;
 }
 
-.priceTag h5{
+.price-tag h5{
     font-size: 6.23vw;
     
     margin: 0;
@@ -326,7 +326,7 @@ margin-top: 2.6vw;
    display: flex;
 }
 
-.priceTag button{
+.price-tag button{
     width: 75.79vw;
     height: 11.05vw;
     background-color: #4159BB;

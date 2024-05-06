@@ -1,80 +1,84 @@
-@media (max-width: 769px){
-    body{
+@media (max-width: 769px) {
+    body {
         width: 100vw;
     }
-    body, html {
+
+    body,
+    html {
         overflow-x: hidden;
         scrollbar-width: 100%;
-      }
+    }
+
     @font-face {
         font-family: InterM;
         src: url('Inter-Medium.otf');
     }
-    
+
     @font-face {
         font-family: InterR;
         src: url('Inter-Regular.otf');
     }
-    
+
     @font-face {
         font-family: InterB;
         src: url('Inter-Bold.otf');
     }
-    
+
     @font-face {
         font-family: InterExBoIt;
         src: url('Inter-ExtraBoldItalic.otf');
     }
-    
+
     @font-face {
         font-family: InterSemiBold;
         src: url('Inter-SemiBold.otf');
     }
-    
-    #fir{
+
+    #section-one {
         border-top: 1px solid black;
-    width: 83.3vw;
-    height: 110.8vw;
-    padding-left: 8.3vw;
-    padding-right: 8.3vw;
-    padding-top: 9.1vw;
-    padding-bottom: 7.1vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        width: 83.3vw;
+        height: 110.8vw;
+        padding-left: 8.3vw;
+        padding-right: 8.3vw;
+        padding-top: 9.1vw;
+        padding-bottom: 7.1vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    #fir h2{
+
+    #section-one h2 {
         font-weight: normal;
         text-align: center;
         margin: 0%;
         margin-bottom: 42px;
-    font-size: 6.25vw;
-    font-family: InterM;
+        font-size: 6.25vw;
+        font-family: InterM;
     }
-    
-    #fir h2 em{
+
+    #section-one h2 em {
         font-family: InterExBoIt;
-        }
-    
-        #fir h3{
-            border-radius: 40px;
-            border: 1px solid black;
-        }
-    
-        .firIns{
-            display: flex;
-            
-            gap: 3.9vw;
-            font-size: 4.1vw;
-        }
-    #cns{
+    }
+
+    #section-one h3 {
+        border-radius: 40px;
+        border: 1px solid black;
+    }
+
+    .firIns {
+        display: flex;
+
+        gap: 3.9vw;
+        font-size: 4.1vw;
+    }
+
+    #cns {
         margin-bottom: 3.9vw;
         flex-direction: column;
     }
 
 
-    #call{
+    #call {
         width: 83.3vw;
         height: 26.4vw;
         display: flex;
@@ -84,84 +88,90 @@
         margin: 0;
     }
 
-    
-    
-        #call p{
-            margin: 0%;
-            font-size: 4.1vw;
-        }
-    
-        #callText{
-            font-size: 4.1vw;
-            font-family: InterR;
-            font-weight: normal;
-        }
-        #callBold{
-            display: flex;
-            align-items: flex-end;
-    font-family: InterB;
-    font-size: 4.1vw;
-        }
-        #callBlue{
-            display: flex;
-            align-items: flex-end;
-            font-family: InterR;
-            color: #4159BB;
-            font-weight: normal;
-            font-size: 4.1vw;
-    
-        }
-    
-    .underlinedP{
+
+
+    #call p {
+        margin: 0%;
+        font-size: 4.1vw;
+    }
+
+    #callText {
+        font-size: 4.1vw;
+        font-family: InterR;
+        font-weight: normal;
+    }
+
+    #callBold {
+        display: flex;
+        align-items: flex-end;
+        font-family: InterB;
+        font-size: 4.1vw;
+    }
+
+    #callBlue {
+        display: flex;
+        align-items: flex-end;
+        font-family: InterR;
+        color: #4159BB;
+        font-weight: normal;
+        font-size: 4.1vw;
+
+    }
+
+    .underlinedP {
         text-decoration: underline;
     }
-    
-        .emoji{
-            text-decoration: none;
-            font-style: normal;
-        }
-    
-        #time{font-size: 4.1vw;
-            margin: 0;
-            width: 83.3vw;
-            height: 22.0vw;
-            font-family: InterR;
-            font-weight: normal;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+
+    .emoji {
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    #time {
+        font-size: 4.1vw;
+        margin: 0;
+        width: 83.3vw;
+        height: 22.0vw;
+        font-family: InterR;
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        }
-    #time p{
+    }
+
+    #time p {
         margin: 0;
     }
-        #time em{
-            font-style: normal;
-            font-family: InterB;
-        }
-    
-        #socials{
-            display: flex;
-            flex-direction: row;
-            gap: 6.5vw;
-            width: 62.2vw;
-            height: 10.6vw;
-            align-items: center
-        }
 
-        #socials svg{
-            width: 10.6vw;
-            height: 10.6vw;
-        }
-    #subsText{
+    #time em {
+        font-style: normal;
+        font-family: InterB;
+    }
+
+    #socials {
+        display: flex;
+        flex-direction: row;
+        gap: 6.5vw;
+        width: 62.2vw;
+        height: 10.6vw;
+        align-items: center
+    }
+
+    #socials svg {
+        width: 10.6vw;
+        height: 10.6vw;
+    }
+
+    #subscription-text {
         font-size: 4.1vw;
         border: 0px solid rgba(226, 46, 46, 0);
         text-align: center;
         font-family: InterR;
         font-weight: normal;
     }
-    
-    #subs{
+
+    #subs {
         border: 1px solid black;
         border-radius: 40px;
         width: 83.3vw;
@@ -173,23 +183,24 @@
         gap: 4.2vw;
     }
 
-    #subs h4{
+    #subs h4 {
         margin: 0%;
     }
-    #sec{
-        
+
+    #section-two {
+
         /*padding-bottom: 50px;*/
         align-items: center;
-    width: 100vw;
-    height: 89.8vw;
-    background-color: #4159BB;
-    display: flex;
-    flex-direction: column;
-    gap: 6.5vw;
- 
+        width: 100vw;
+        height: 89.8vw;
+        background-color: #4159BB;
+        display: flex;
+        flex-direction: column;
+        gap: 6.5vw;
+
     }
-    
-    #sec h4{
+
+    #section-two h4 {
         line-height: 5.2vw;
         font-family: InterSemiBold;
         color: white;
@@ -201,47 +212,48 @@
         align-self: center;
         text-align: center;
     }
-    
-    #sec h4 em{
+
+    #section-two h4 em {
         border-bottom: 1px solid white;
         font-style: normal;
-    
+
     }
-    
-    #sec div{
+
+    #section-two div {
         width: 100vw;
         height: 65.1vw;
         background-image: url('map.png');
         background-position: center;
         background-size: contain;
     }
-    
-    #thiXfou{
+
+    #third-and-fourth-section {
         display: flex;
         flex-direction: column;
         gap: 60px;
         padding-bottom: 75px;
     }
-    
-    #thi{
-        
-    padding-top: 60px;
-    
-    width: 84.2vw;
-    padding-left: 7.8vw;
-    padding-right: 7.8vw;
-    height: 72.9vw;
-    gap: 6.2vw;
-    display: flex;
-    flex-direction: column;
-    
+
+    #section-three {
+
+        padding-top: 60px;
+
+        width: 84.2vw;
+        padding-left: 7.8vw;
+        padding-right: 7.8vw;
+        height: 72.9vw;
+        gap: 6.2vw;
+        display: flex;
+        flex-direction: column;
+
     }
-    
-    #thi p,h5{
+
+    #section-three p,
+    h5 {
         margin: 0;
     }
-    
-    #thi article{
+
+    #section-three article {
         display: flex;
         flex-direction: column;
         gap: 2.7vw;
@@ -251,19 +263,19 @@
         height: 47.2vw;
         line-height: 3.2vw;
     }
-    
-    #thi p{
+
+    #section-three p {
         font-family: InterR;
         font-weight: normal;
         font-size: 3.1vw;
     }
-    
-    #thi h5{
+
+    #section-three h5 {
         font-size: 3.1vw;
         font-family: InterSemiBold;
     }
-    
-    .logo{
+
+    .logo {
         width: 42.7vw;
         align-self: center;
         height: 81px;
@@ -274,30 +286,34 @@
         margin-top: 0px;
         /*margin-left: 83px;*/
     }
-    #thi em{
+
+    #section-three em {
         font-style: normal;
     }
-    #address{
-    
-    border-bottom: 1px solid black;
+
+    #address {
+
+        border-bottom: 1px solid black;
     }
-    #link{
-        
+
+    #link {
+
         color: #4159BB;
     }
-    
-    
-    
-    #fou{
+
+
+
+    #section-four {
         width: 84.2vw;
-    padding-left: 7.8vw;
-    padding-right: 7.8vw;
-        
+        padding-left: 7.8vw;
+        padding-right: 7.8vw;
+
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    #fou form{
+
+    #section-four form {
         display: flex;
         width: 72.5vw;
         height: 355px;
@@ -306,31 +322,31 @@
         padding-top: 52px;
         padding-bottom: 52px;
         padding-left: 45.5px;
-        padding-right:45.5px;
+        padding-right: 45.5px;
         border: 1px solid black;
         border-radius: 30px;
         flex-direction: column;
     }
-    
+
     /*comment*/
-    
-    #fou form aside{
-    display: flex;
-    flex-direction: column;
-    width: 383px;
-    height: 162px;
-    gap: 18px;
-    align-items: center
+
+    #section-four form aside {
+        display: flex;
+        flex-direction: column;
+        width: 383px;
+        height: 162px;
+        gap: 18px;
+        align-items: center
     }
-    
-    #fou form article{
-    width: 72.5vw;
-    font-family: InterR;
-    font-weight: lighter;
-    text-align: center;
+
+    #section-four form article {
+        width: 72.5vw;
+        font-family: InterR;
+        font-weight: lighter;
+        text-align: center;
     }
-    
-    #fou form article h2{
+
+    #section-four form article h2 {
         text-align: center;
         font-family: InterM;
         font-weight: lighter;
@@ -338,17 +354,17 @@
         font-size: 6.1vw;
         margin-bottom: 0.7vw;
     }
-    
-    #fou form em{
+
+    #section-four form em {
         font-style: normal;
         font-family: InterExBoIt;
     }
-    
-    #fou button{
-        width:260px;
+
+    #section-four button {
+        width: 260px;
         height: 42px;
-        
-        
+
+
         font-family: Inter;
         font-size: 14.8px;
         border-radius: 40px;
@@ -356,20 +372,20 @@
         border: 0cap;
         color: white;
     }
-    
-    #fou input{
+
+    #section-four input {
         height: 42px;
         border: 1px solid #999EAD;
         background-color: rgba(0, 0, 128, 0);
         border-radius: 10px;
-    width: 49.8vw;
-    padding-left: 17px;
-    
+        width: 49.8vw;
+        padding-left: 17px;
+
     }
-    
-    #fou input::placeholder{
+
+    #section-four input::placeholder {
         font-family: Inter;
-        
+
     }
-    
+
 }

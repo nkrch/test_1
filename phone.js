@@ -22,7 +22,7 @@ function phoneInputFunc() {
 }
 
 function phoneClickFunc() {
-  if (clicks == 0) {
+  if (clicks == 0 && document.getElementById("phone")) {
     clicks++;
     document.getElementById("phone").value = "+375 ";
   }

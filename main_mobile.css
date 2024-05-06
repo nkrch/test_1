@@ -19,7 +19,7 @@ main{
     padding-bottom: 6vw;
 }
 
-#fir{
+#section-one{
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -31,13 +31,13 @@ main{
     font-family: InterExBoIt;
     src: url('Inter-ExtraBoldItalic.otf');
 }
-#fir h2 em{
+#section-one h2 em{
     font-style: normal;
     font-family: InterExBoIt;
     
 }
 
-#fir{
+#section-one{
     padding-left: 6.2vw;
     padding-top: 7.1vw;
     padding-bottom: 6.5vw;
@@ -51,27 +51,27 @@ main{
 
 
 
-#fir article h2{
+#section-one article h2{
     font-size: 8.33vw;
     margin-bottom: 0.6vw;
     font-weight: 700;
     margin-top: 0;
 }
 
-#fir article p{
+#section-one article p{
     font-size: 2vw;
     margin-bottom: 3.3vh;
     width: auto;
 }
 
-#fir article{
+#section-one article{
     width: 65.7vw;
     height: 47.6vw;
    margin-left: -6vw;
     
 }
 
-#fir article button{
+#section-one article button{
     width: 38.4vw;
     height: 47.65vw;
     margin-left: 0;
@@ -92,7 +92,7 @@ main{
     background-color: #B2C1E2;
 }
 
-#sec{
+#section-two{
     width: 100vw;
     height: 121.6vw;
     display: flex;
@@ -100,7 +100,7 @@ main{
     justify-content: center;
 }
 
-#sec-cont{
+#section-two-cont{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -204,7 +204,7 @@ background-image: url('spFlag.png');
     grid-row-start: 1;
 }
 
-#thi{
+#section-three{
 height: 49.4vw;
 width: 67.5vw;
 background-color: #4159BB;
@@ -218,7 +218,7 @@ padding-left: 16.2vw;
     justify-content: space-between
 }
 
-#thi h2{
+#section-three h2{
     margin: 0%;
     text-align: center;
 }
@@ -252,7 +252,7 @@ text-align: end;
     font-family: InterExBoIt;
 }
 
-#fou{
+#section-four{
     width: 84.2vw;
 padding-left: 7.8vw;
 padding-right: 7.8vw;
@@ -261,7 +261,7 @@ padding-right: 7.8vw;
     align-items: center;
     justify-content: center;
 }
-#fou form{
+#section-four form{
     display: flex;
     width: 72.5vw;
     height: 46.2vw;
@@ -278,7 +278,7 @@ padding-right: 7.8vw;
 
 /*comment*/
 
-#fou form aside{
+#section-four form aside{
 display: flex;
 flex-direction: column;
 width: 49.8vw;
@@ -287,14 +287,14 @@ gap: 2.3vw;
 align-items: center
 }
 
-#fou form article{
+#section-four form article{
 width: 72.5vw;
 font-family: InterR;
 font-weight: lighter;
 text-align: center;
 }
 
-#fou form article h2{
+#section-four form article h2{
     text-align: center;
     font-family: InterM;
     font-weight: lighter;
@@ -303,7 +303,7 @@ text-align: center;
     margin-bottom: 0.7vw;
 }
 
-#fou form article p{
+#section-four form article p{
     text-align: center;
     font-family: InterM;
     font-weight: lighter;
@@ -312,12 +312,12 @@ text-align: center;
     margin-bottom: 0.7vw;
 }
 
-#fou form em{
+#section-four form em{
     font-style: normal;
     font-family: InterExBoIt;
 }
 
-#fou button{
+#section-four button{
     width:33.8vw;
     height: 5.4vw;
     
@@ -330,7 +330,7 @@ text-align: center;
     color: white;
 }
 
-#fou input{
+#section-four input{
     height: 5.4vw;
     border: 1px solid #999EAD;
     background-color: rgba(0, 0, 128, 0);
@@ -340,7 +340,7 @@ padding-left: 2.2vw;
 
 }
 
-#fou input::placeholder{
+#section-four input::placeholder{
     font-family: Inter;
     
 }
@@ -357,7 +357,7 @@ padding-left: 2.2vw;
         padding-bottom: 7.1vw;
     }
     
-    #fir{
+    #section-one{
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -369,13 +369,13 @@ padding-left: 2.2vw;
         font-family: InterExBoIt;
         src: url('Inter-ExtraBoldItalic.otf');
     }
-    #fir h2 em{
+    #section-one h2 em{
         font-style: normal;
         font-family: InterExBoIt;
         
     }
     
-    #fir{
+    #section-one{
         padding-left: 6.2vw;
         padding-top: 13.16vw;
         padding-bottom: 13.16vw;
@@ -389,27 +389,27 @@ padding-left: 2.2vw;
     
     
     
-    #fir article h2{
+    #section-one article h2{
         font-size: 10.53vw;
         margin-bottom: 2.63vw;
         font-weight: 700;
         margin-top: 0;
     }
     
-    #fir article p{
+    #section-one article p{
         font-size: 2vw;
         margin-bottom: 4.74vh;
         width: 79vw;
     }
     
-    #fir article{
+    #section-one article{
         width: 81.32vw;
         height: 31.58vw;
        margin-left: -6vw;
         
     }
     
-    #fir article button{
+    #section-one article button{
         width: 85.7vw;
         height: 47.65vw;
         margin-left: 0;
@@ -430,7 +430,7 @@ padding-left: 2.2vw;
         background-color: #B2C1E2;
     }
     
-    #sec{
+    #section-two{
         width: 100vw;
         height: 222vw;
         padding-top: 5.26vw;
@@ -440,7 +440,7 @@ padding-left: 2.2vw;
         justify-content: center;
     }
     
-    #sec-cont{
+    #section-two-cont{
         display: flex;
         gap: 3.95vw;
         justify-content: space-between;
@@ -527,7 +527,7 @@ padding-left: 2.2vw;
     }
     
     
-    #thi{
+    #section-three{
     height: 56.84vw;
     width: 67.5vw;
     background-color: #4159BB;
@@ -541,7 +541,7 @@ padding-left: 2.2vw;
         justify-content: space-between
     }
     
-    #thi h2{
+    #section-three h2{
         margin: 0%;
         text-align: center;
     }
@@ -575,7 +575,7 @@ padding-left: 2.2vw;
         font-family: InterExBoIt;
     }
     
-    #fou{
+    #section-four{
         width: 84.2vw;
         padding-top: 5.5vw;
     padding-left: 7.8vw;
@@ -585,7 +585,7 @@ padding-left: 2.2vw;
         align-items: center;
         justify-content: center;
     }
-    #fou form{
+    #section-four form{
         display: flex;
         width: 90.5vw;
         height: 74.9vw;
@@ -602,7 +602,7 @@ padding-left: 2.2vw;
     
     /*comment*/
     
-    #fou form aside{
+    #section-four form aside{
     display: flex;
     flex-direction: column;
     width: 91.5vw;
@@ -611,7 +611,7 @@ padding-left: 2.2vw;
     align-items: center
     }
     
-    #fou form article{
+    #section-four form article{
     width: 72.5vw;
     font-size: 2.8vw;
     font-family: InterR;
@@ -619,7 +619,7 @@ padding-left: 2.2vw;
     text-align: center;
     }
     
-    #fou form article h2{
+    #section-four form article h2{
         text-align: center;
         font-family: InterM;
         font-weight: lighter;
@@ -629,12 +629,12 @@ padding-left: 2.2vw;
         margin-top: 2.7vw;
     }
     
-    #fou form em{
+    #section-four form em{
         font-style: normal;
         font-family: InterExBoIt;
     }
     
-    #fou button{
+    #section-four button{
         width:68.4vw;
         height: 11vw;
         
@@ -647,7 +647,7 @@ padding-left: 2.2vw;
         color: white;
     }
     
-    #fou input{
+    #section-four input{
         height: 11vw;
         border: 1px solid #999EAD;
         background-color: rgba(0, 0, 128, 0);
@@ -657,7 +657,7 @@ padding-left: 2.2vw;
     
     }
     
-    #fou input::placeholder{
+    #section-four input::placeholder{
         font-family: Inter;
         
     }

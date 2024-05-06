@@ -23,7 +23,7 @@
     src: url('Inter-SemiBold.otf');
 }
 
-#fir{
+#section-one{
     border-top: 1px solid black;
 width: 83,3vw;
 height: 42.9vw;
@@ -36,7 +36,7 @@ flex-direction: column;
 align-items: center;
 }
 
-#fir h2{
+#section-one h2{
     font-weight: normal;
     text-align: center;
     margin: 0%;
@@ -45,11 +45,11 @@ font-size: 4vw;
 font-family: InterM;
 }
 
-#fir h2 em{
+#section-one h2 em{
     font-family: InterExBoIt;
     }
 
-    #fir h3,#divText{
+    #section-one h3,#divText{
         border-radius: 40px;
         border: 1px solid black;
     }
@@ -143,7 +143,7 @@ font-size: 2.2vw;
         height: 5.6vw;
         align-items: center
     }
-#subsText{
+#subscription-text{
     font-size: 2.2vw;
     border: 0px solid rgba(226, 46, 46, 0);
     text-align: center;
@@ -161,7 +161,7 @@ font-size: 2.2vw;
     justify-content: center;
     gap: 82px;
 }
-#sec{
+#section-two{
     
     /*padding-bottom: 50px;*/
     align-items: center;
@@ -173,7 +173,7 @@ flex-direction: column;
 gap: 50px;
 }
 
-#sec h4{
+#section-two h4{
     line-height: 2.7vw;
     font-family: InterSemiBold;
     color: white;
@@ -185,13 +185,13 @@ gap: 50px;
     text-align: center;
 }
 
-#sec h4 em{
+#section-two h4 em{
     border-bottom: 1px solid white;
     font-style: normal;
 
 }
 
-#sec div{
+#section-two div{
     width: 100vw;
     height: 34.7vw;
     background-image: url('map.png');
@@ -199,13 +199,13 @@ gap: 50px;
     background-size: contain;
 }
 
-#thiXfou{
+#third-and-fourth-section{
     display: flex;
     flex-direction: column;
     gap: 5.2vw;
 }
 
-#thi{
+#section-three{
     padding-top: 5.2vw;
 
 width: 77.4vw;
@@ -218,11 +218,11 @@ flex-direction: row;
 
 }
 
-#thi p,h5{
+#section-three p,h5{
     margin: 0;
 }
 
-#thi article{
+#section-three article{
     display: flex;
     flex-direction: column;
     gap: 1.4vw;
@@ -232,12 +232,12 @@ flex-direction: row;
     line-height: 1.6vw;
 }
 
-#thi p{
+#section-three p{
     font-family: InterR;
     font-weight: normal;
 }
 
-#thi h5{
+#section-three h5{
     font-size: 1.6vw;
     font-family: InterSemiBold;
 }
@@ -252,7 +252,7 @@ flex-direction: row;
     margin-top: 100px;
     /*margin-left: 83px;*/
 }
-#thi em{
+#section-three em{
     font-style: normal;
 }
 #address{
@@ -264,14 +264,14 @@ border-bottom: 1px solid black;
     color: #4159BB;
 }
 
-#fou{
+#section-four{
 padding-left: 8.3vw;
 padding-right: 8.3vw;
 width: 83.3vw;
 height: 22vw;
 }
 
-#fou{
+#section-four{
     height: 447px;
     width: 83.3vw;
     padding-left: 8.3vw;
@@ -281,7 +281,7 @@ height: 22vw;
     align-items: center;
     justify-content: center;
 }
-#fou form{
+#section-four form{
     display: flex;
     width: 83.3vw;
     height: 166.9px;
@@ -297,7 +297,7 @@ height: 22vw;
 
 /*comment*/
 
-#fou form aside{
+#section-four form aside{
 display: flex;
 flex-direction: column;
 width: 26.5vw;
@@ -306,13 +306,13 @@ gap: 18px;
 align-items: center
 }
 
-#fou form article{
+#section-four form article{
 width: 38.6vw;
 font-family: InterR;
 font-weight: lighter;
 }
 
-#fou form article h2{
+#section-four form article h2{
     font-family: InterM;
     font-weight: lighter;
     margin: 0%;
@@ -320,12 +320,12 @@ font-weight: lighter;
     margin-bottom: 6px;
 }
 
-#fou form em{
+#section-four form em{
     font-style: normal;
     font-family: InterExBoIt;
 }
 
-#fou button{
+#section-four button{
     width:18vw;
     height: 42px;
     
@@ -338,7 +338,7 @@ font-weight: lighter;
     color: white;
 }
 
-#fou input{
+#section-four input{
     height: 42px;
     border: 1px solid #999EAD;
     background-color: rgba(0, 0, 128, 0);
@@ -348,7 +348,7 @@ padding-left: 17px;
 
 }
 
-#fou input::placeholder{
+#section-four input::placeholder{
     font-family: Inter;
     
 }

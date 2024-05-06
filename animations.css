@@ -1,6 +1,6 @@
 
 
-#fou button:hover,#fir button:hover{
+#section-four button:hover,#fir button:hover{
     
         border: 1px solid #4159BB;
         background-color: rgb(255, 255, 255);
@@ -13,7 +13,7 @@
     position: relative;
 }
 
-#carousel img{
+#carousel .img{
     left: 0;
     width: 100%;
     height: 100%;
