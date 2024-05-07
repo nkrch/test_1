@@ -1,3 +1,115 @@
+<<<<<<< HEAD
+.white-button{
+    background-color: #4159BB;
+    transition-duration: 300ms;
+    color: white;
+    box-shadow: 0vw 0.5vw 0.25vw 0 rgba(0, 0, 0, 0.318);
+}
+
+.white-button:hover{
+    background-color: white !important;
+    border: 1px solid #4159BB !important;
+    color: #4159BB !important;
+    transition-duration: 300ms;
+    box-shadow: 0vw 0vw 0vw 0 rgba(0, 0, 0, 0.318);
+}
+
+.schedule-button{
+    background-color: #4159BB;
+    transition-duration: 300ms;
+    color: white;
+    
+}
+
+.schedule-button:hover{
+    background-color: white !important;
+    border: 1px solid #4159BB !important;
+    color: #4159BB !important;
+    transition-duration: 300ms;
+    
+}
+
+/*images*/
+#section-four button:hover,
+#fir button:hover {
+
+    border: 1px solid #4159BB;
+    background-color: rgb(255, 255, 255);
+    color: #4159BB;
+
+}
+
+#carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel .img {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: slideshow 23s ease-in-out infinite;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes slideshow {
+    from {
+        opacity: 0;
+        filter: grayscale(100%);
+    }
+
+    5% {
+        opacity: 1;
+        filter: grayscale(50%);
+    }
+
+    20% {
+        opacity: 1;
+        filter: grayscale(0);
+
+    }
+
+    25% {
+        opacity: 1;
+        filter: blur(0);
+    }
+
+    30% {
+        opacity: 0;
+        filter: blur(2px);
+
+    }
+
+    55% {
+        opacity: 0;
+    }
+}
+
+#carousel img:nth-child(1) {
+    animation-delay: -2s;
+
+
+}
+
+#carousel img:nth-child(2) {
+    animation-delay: 3s;
+}
+
+#carousel img:nth-child(3) {
+    animation-delay: 8s;
+}
+
+#carousel img:nth-child(4) {
+    animation-delay: 13s;
+}
+
+#carousel img:nth-child(5) {
+    animation-delay: 18s;
+}
+=======
 
 
 #section-four button:hover,#fir button:hover{
@@ -78,3 +190,4 @@ animation-delay: -2s;
                 }
 
                 
+>>>>>>> ca608ed6c1b00423f2aa533a10856e4b4976d14e

@@ -1,3 +1,410 @@
+<<<<<<< HEAD
+@media (max-width:381px) {
+    body {
+        width: 100vw;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+        scrollbar-width: 100%;
+    }
+
+    @font-face {
+        font-family: InterM;
+        src: url('Inter-Medium.otf');
+    }
+
+    @font-face {
+        font-family: InterR;
+        src: url('Inter-Regular.otf');
+    }
+
+    @font-face {
+        font-family: InterB;
+        src: url('Inter-Bold.otf');
+    }
+
+    @font-face {
+        font-family: InterExBoIt;
+        src: url('Inter-ExtraBoldItalic.otf');
+    }
+
+    @font-face {
+        font-family: InterSemiBold;
+        src: url('Inter-SemiBold.otf');
+    }
+
+    #section-one {
+        border-top: 1px solid black;
+        width: 89.6vw;
+        height: 126vw;
+        padding-left: 5.2vw;
+        padding-right: 5.2vw;
+        padding-top: 6.8vw;
+        padding-bottom: 6.8vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-one h2 {
+        font-weight: normal;
+        text-align: center;
+        margin: 0%;
+        margin-bottom: 6.8vw;
+        font-size: 7, 8vw;
+        font-family: InterM;
+        border-radius: 6.5vw;
+    }
+
+    #section-one h2 em {
+        font-family: InterExBoIt;
+    }
+
+    #section-one h3 {
+        border-radius: 10.5vw;
+        border: 1px solid black;
+    }
+
+    .first-section-inside-block {
+        display: flex;
+        border-radius: 6.5vw;
+        gap: 3.9vw;
+        font-size: 4.1vw;
+    }
+
+    #call-full-block {
+        margin-bottom: 3.9vw;
+        border-radius: 6.5vw;
+        flex-direction: column;
+    }
+
+
+    #call {
+        width: 91.5vw;
+        height: 31.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        border-radius: 6.5vw;
+        margin-bottom: 7, 8vw;
+        ;
+    }
+
+
+
+    #call p {
+        margin: 0%;
+        font-size: 5.2vw;
+    }
+
+    #call-text {
+        font-size: 5.2vw;
+        font-family: InterR;
+        font-weight: normal;
+    }
+
+    #call-number {
+        display: flex;
+        align-items: flex-end;
+        font-family: InterB;
+        font-size: 5.2vw;
+    }
+
+    #call-post {
+        display: flex;
+        align-items: flex-end;
+        font-family: InterR;
+        color: #4159BB;
+        font-weight: normal;
+        font-size: 5.2vw;
+
+    }
+
+    .underlinedP {
+        text-decoration: underline;
+    }
+
+    .emoji {
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    #time {
+        font-size: 5.2vw;
+        margin: 0;
+        width: 91.5vw;
+        height: 31.5vw;
+        font-family: InterR;
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6.5vw;
+        gap: 2.6vw;
+    }
+
+    #time p {
+        margin: 0;
+    }
+
+    #time em {
+        font-style: normal;
+        font-family: InterB;
+    }
+
+    #socials {
+        display: flex;
+        flex-direction: row;
+        gap: 6.5vw;
+        width: 62.2vw;
+        height: 10.6vw;
+        align-items: center
+    }
+
+    #socials svg {
+        width: 10.6vw;
+        height: 10.6vw;
+    }
+
+    #subscription-text {
+        font-size: 5.2vw;
+        border: 0px solid rgba(226, 46, 46, 0);
+        text-align: center;
+        font-family: InterR;
+        font-weight: normal;
+    }
+
+    #subs {
+        border: 1px solid black;
+        border-radius: 6.5vw;
+        width: 91.5vw;
+        height: 36.8vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.6vw;
+    }
+
+    #subs h4 {
+        margin: 0%;
+    }
+
+    #section-two {
+
+        /*padding-bottom: 50px;*/
+        align-items: center;
+        width: 100vw;
+        height: 114.4vw;
+        background-color: #4159BB;
+        display: flex;
+        flex-direction: column;
+        gap: 6.3vw;
+    }
+
+    #section-two h4 {
+        line-height: 5.2vw;
+        font-family: InterSemiBold;
+        color: white;
+        font-weight: lighter;
+        text-transform: uppercase;
+        font-size: 5.2vw;
+        margin: 0%;
+        margin-top: 6.5vw;
+        align-self: center;
+        text-align: center;
+    }
+
+    #section-two h4 em {
+        border-bottom: 1px solid white;
+        font-style: normal;
+
+    }
+
+    #section-two div {
+        width: 100vw;
+        height: 84.2vw;
+        background-image: url('map.png');
+        background-position: center;
+        background-size: contain;
+    }
+
+    #third-and-fourth-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10.5vw;
+        padding-bottom: 6.5vw;
+        padding-top: 0;
+    }
+
+    #section-three {
+        padding-top: 7.8vw;
+
+        font-size: 3.9vw;
+        width: 89.6vw;
+        padding-left: 5.2vw;
+        padding-right: 5.2vw;
+        height: 96.3vw;
+        gap: 6.2vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #section-three p,
+    h5 {
+        margin: 0;
+        font-size: 3.9vw;
+    }
+
+    #section-three article {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2.7vw;
+        font-size: 3.9vw;
+        font-family: InterR;
+        width: 91.5vw;
+        height: 67.1vw;
+        line-height: 3.9vw;
+    }
+
+
+
+    #section-three p {
+        font-family: InterR;
+        font-weight: normal;
+        font-size: 3.9vw;
+    }
+
+    #section-three h5 {
+        font-size: 3.9vw;
+        font-family: InterSemiBold;
+    }
+
+    .logo {
+        width: 84.4vw;
+        align-self: center;
+        height: 21.3vw;
+        background-image: url('logo_B.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        /*margin-left: 83px;*/
+    }
+
+    #section-three em {
+        font-style: normal;
+        font-size: 3.9vw;
+    }
+
+    #address {
+
+        border-bottom: 1px solid black;
+    }
+
+    #link {
+
+        color: #4159BB;
+    }
+
+
+
+    #section-four {
+        width: 84.2vw;
+        padding-left: 7.8vw;
+        padding-right: 7.8vw;
+        height: 84.2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-four-form {
+        display: flex;
+        width: 90.5vw;
+        height: 73.9vw;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5.2vw;
+        padding-bottom: 5.2vw;
+        padding-left: 2.3vw;
+        padding-right: 2.3vw;
+        border: 1px solid black;
+        border-radius: 7.8vw;
+        flex-direction: column;
+    }
+
+    /*comment*/
+
+    #section-four-form aside {
+        display: flex;
+        flex-direction: column;
+        width: 91.5vw;
+        height: 42.6vw;
+        gap: 2.8vw;
+        align-items: center
+    }
+
+    #section-four-form article {
+        width: 72.5vw;
+        font-size: 2.8vw;
+        font-family: InterR;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    #section-four-form-article h2 {
+        text-align: center;
+        font-family: InterM;
+        font-weight: lighter;
+        margin: 0%;
+        font-size: 23px;
+        margin-bottom: 0.7vw;
+        margin-top: 2.7vw;
+    }
+
+    #section-four-form-em {
+        font-style: normal;
+        font-family: InterExBoIt;
+    }
+
+    #section-four button {
+        width: 68.4vw;
+        height: 11vw;
+
+
+        font-family: Inter;
+        font-size: 3.8vw;
+        border-radius: 40px;
+        background-color: #4159BB;
+        border: 0cap;
+        color: white;
+    }
+
+    #section-four input {
+        height: 11vw;
+        border: 1px solid #999EAD;
+        background-color: rgba(0, 0, 128, 0);
+        border-radius: 10px;
+        width: 86.8vw;
+        padding-left: 17px;
+
+    }
+
+    #section-four input::placeholder {
+        font-family: Inter;
+
+    }
+
+}
+=======
 @media (max-width:381px){
     body{
         width: 100vw;
@@ -386,3 +793,4 @@
     }
     
 }
+>>>>>>> ca608ed6c1b00423f2aa533a10856e4b4976d14e

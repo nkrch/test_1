@@ -27,33 +27,12 @@ body {
   
 }
 
-main button:hover{
-    border: 1px solid #4159BB;
-    background-color: rgb(255, 255, 255);
-    transition-duration: 500ms;
-    color: #4159BB !important
-}
 
 
 
 
-#section-four button:hover,#fir button:hover{
-    transition-duration: 200ms;
-        border: 1px solid #4159BB;
-        background-color: rgb(255, 255, 255);
-        color: #4159BB;
-        box-shadow: 0vw 0vw 0vw 0 rgba(0, 0, 0, 0.318);
-    
-}
 
-#section-four button,#fir button{
-    transition-duration: 300ms;
-    box-shadow: 0vw 0.5vw 0.25vw 0 rgba(0, 0, 0, 0.318);
-    border: 1px solid #4159BB;
-    background-color: rgb(255, 255, 255);
-    color: #4159BB;
 
-}
 
 
 iframe{

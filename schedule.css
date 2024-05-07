@@ -1,3 +1,268 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: Inter;
+    src: url('Inter-Regular.otf');
+}
+@font-face {
+    font-family: InterExBoIt;
+    src: url('Inter-ExtraBoldItalic.otf');
+}
+@font-face {
+    font-family: InterMedium;
+    src: url('Inter-Medium.otf');
+}
+@font-face {
+    font-family: InterSemiBold;
+    src: url('Inter-SemiBold.otf');
+}
+
+@media screen and (min-width: 1440px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid black;
+        padding-left: 120px;
+        height: 1661px;
+        width: 1320px;
+    }
+    #schedule-container{
+        gap: 25px;
+        height: 1340px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+    font-family: InterExBoIt;
+    font-size: 64px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    }
+    li{
+        list-style-type: none;
+    }
+    .schedule-element{
+        border: 1px solid black;
+        display: flex;
+        border-radius: 25px;
+        width: 1125px;
+        height:90px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+    
+    .schedule-element section{
+        
+        font-size: 32px;
+        
+        width: 274px;
+        margin: 0%;
+        font-family: InterSemiBold;
+    }
+    
+    .schedule-element h3 div{
+        
+    }
+    .language-name{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        
+        
+    }
+    .brFlag{
+        width: 32px;
+        height: 32px;
+        
+        background-image: url('brFlag.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .schedule-element p{
+        width: 357px;
+        margin: 0;
+    }
+    
+    .desc{
+        margin-left: 102px;
+        margin-right: 148px;
+        font-family: Inter;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .desc em{
+        font-family: InterSemiBold;
+        font-style: normal;
+    }
+    
+    .price-tag{
+        height: 90px;
+        font-family: Inter;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    gap: 12px;
+    }
+    
+    .price-tag h5{
+        font-size: 32px;
+        margin: 0;
+        line-height: 36px;
+        font-weight: normal;
+       
+    }
+    
+    .price-tag button{
+        width: 260px;
+        height: 42px;
+        background-color: #4159BB;
+        font-family: InterMedium;
+        font-weight: normal;
+        color: white;
+        font-size: 16px;
+        font-weight: 350;
+        border-radius: 40px;
+        border: 0cap;
+    }
+}
+
+body{
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    padding-left: 4.2vw;
+    padding-right: 4.2vw;
+    height: 1661px;
+    width: 91.6vw;
+}
+
+main h2{
+    padding-left: 4vw;
+    
+}
+#schedule-container{
+    gap: 25px;
+    height: 1340px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+font-family: InterExBoIt;
+font-size: 64px;
+text-transform: uppercase;
+margin-top: 60px;
+margin-bottom: 60px;
+
+
+}
+li{
+    list-style-type: none;
+}
+.schedule-element{
+    border: 1px solid black;
+    display: flex;
+    border-radius: 25px;
+    width: 78.1vw;
+    height:90px;
+    margin-left: 1.2vw;
+    padding-left: 2.7vw;
+    padding-right: 2.7vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.schedule-element section{
+    
+    font-size: 2.2vw;
+    
+    width: 19vw;
+    margin: 0%;
+    font-family: InterSemiBold;
+}
+
+.schedule-element h3 div{
+    
+}
+.language-name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 19vw;
+    
+}
+.brFlag{
+    width: 32px;
+    height: 32px;
+    
+    background-image: url('brFlag.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.schedule-element p{
+    width: 24.7vw;
+    margin: 0;
+}
+
+.desc{
+    margin-left: 7vw;
+    margin-right: 10.2vw;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.3vw;
+    line-height: 20px;
+}
+
+.desc em{
+    font-family: InterSemiBold;
+    font-style: normal;
+}
+
+.price-tag{
+    height: 90px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+gap: 12px;
+}
+
+.price-tag h5{
+    font-size: 32px;
+    margin: 0;
+    line-height: 36px;
+    font-weight: normal;
+   
+}
+
+.price-tag button{
+    width: 18vw;
+    height: 42px;
+    background-color: #4159BB;
+    font-family: InterMedium;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    font-weight: 350;
+    border-radius: 40px;
+    border: 0cap;
+=======
 @font-face {
     font-family: Inter;
     src: url('Inter-Regular.otf');
@@ -261,4 +526,5 @@ gap: 12px;
     font-weight: 350;
     border-radius: 40px;
     border: 0cap;
+>>>>>>> ca608ed6c1b00423f2aa533a10856e4b4976d14e
 }

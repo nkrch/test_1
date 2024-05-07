@@ -12,7 +12,8 @@ const body = document.getElementsByTagName("body")[0],
   header = document.getElementsByTagName("header"),
   form = document.getElementsByTagName("form"),
   input = document.getElementsByTagName("input"),
-  whiteBtn = document.getElementsByClassName("whiteBtn"),
+  whitebutton = document.getElementsByClassName("white-button"),
+  schedulebutton = document.getElementsByClassName("schedule-button"),
   langCard = document.getElementsByClassName("langCard"),
   section = document.getElementsByTagName("section");
 const darkTheme = {
@@ -90,20 +91,17 @@ function changeTheme() {
     if (document.getElementById("adr")) {
       document.getElementById("adr").style.color = "white";
     }
-
+    document.getElementById("footer-button-up").style.color = "white";
     console.log(theme);
   }
 }
 
 function colors(objTheme) {
-  /*document.getElementById(
-    "mainBtn"
-  ).style.filter = `invert(${objTheme.mainBtnInvert})`;*/
   invertF(objTheme);
   body.style.backgroundColor = objTheme.background;
   body.style.color = objTheme.color;
   document.getElementById(
-    "menuBurger"
+    "menu-burger"
   ).style.filter = `invert(${objTheme.mainBtnInvert})`;
   colorFC(buttons, objTheme);
   colorFC(h3, objTheme);
@@ -114,7 +112,8 @@ function colors(objTheme) {
   borderColorFC(langCard, objTheme);
   borderColorFC(form, objTheme);
 
-  whiteCLR(whiteBtn);
+  whiteCLR(whitebutton);
+  whiteCLR(schedulebutton);
 
   colorFC(a, objTheme);
   colorFC(input, objTheme);

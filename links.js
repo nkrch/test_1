@@ -7,7 +7,7 @@ function formAct() {
   console.log("form");
 }
 
-document.getElementById("scrollTop").onclick = scrollTop;
+document.getElementById("footer-button-up").onclick = scrollTop;
 
 function scrollTop() {
   console.log("scroll");
@@ -32,7 +32,7 @@ if (document.getElementById("scrollBottom") != null) {
 }
 
 function scrollBottom() {
-  let i = document.getElementById("fou").offsetTop - 135;
+  let i = document.getElementById("section-four").offsetTop - 135;
   window.scrollTo(0, i);
 }
 

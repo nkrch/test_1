@@ -172,7 +172,7 @@
         justify-content: space-between
     }
     
-    #friendAdd{
+    #friend-add{
     
     color: white;
     font-family: Inter;
@@ -187,7 +187,7 @@
     background-repeat: no-repeat;
     background-image: url('dance.png');
     }
-    #weekFree{
+    #week-free{
     
     color: white;
     font-family: Inter;
@@ -196,7 +196,7 @@
     text-align: end;
     }
     
-    #weekFree em{
+    #week-free em{
         font-style: normal;
         font-family: InterExBoIt;
     }
@@ -337,7 +337,7 @@ body{
     
 }
 
-#section-one article button{
+#section-one .white-button{
     width: 20.4vw;
     margin-left: 4.9vw;
     height: 3.1vw;
@@ -348,6 +348,13 @@ body{
     border: 0cap;
     color: white;
 }
+
+.white-button:hover{
+    transition-duration: 200ms;
+    background-color: white;
+    color: #4159BB;
+}
+
 #carousel{
     border-top-left-radius: 34px;
     border-bottom-left-radius: 34px;
@@ -425,14 +432,17 @@ background-image: url('spFlag.png');
     border-radius: 25px;
 
 }
+
 @font-face {
     font-family: InterSemiBold;
     src: url('Inter-SemiBold.otf');
 }
+
 .langCard em{
     font-style: normal;
     font-family: InterSemiBold;
 }
+
 .langCard p{
     font-size: 1.3vw;
 }
@@ -456,13 +466,14 @@ padding-left: 8.3vw;
     justify-content: space-between
 }
 
-#friendAdd{
+#friend-add{
 
 color: white;
 font-family: Inter;
 font-size: 3.1vw;
 font-weight: 500;
 }
+
 #dance{
 width: 16.3vw;
 height: 8.8vw;
@@ -471,7 +482,8 @@ background-size: contain;
 background-repeat: no-repeat;
 background-image: url('dance.png');
 }
-#weekFree{
+
+#week-free{
 
 color: white;
 font-family: Inter;
@@ -480,7 +492,7 @@ font-weight: 500;
 text-align: end;
 }
 
-#weekFree em{
+#week-free-em{
     font-style: normal;
     font-family: InterExBoIt;
 }
@@ -495,7 +507,7 @@ text-align: end;
     align-items: center;
     justify-content: center;
 }
-#section-four form{
+#section-four-form{
     display: flex;
     width: 83.3vw;
     height: 9.7vw;
@@ -535,7 +547,7 @@ width: 38.6vw;
     font-family: InterExBoIt;
 }
 
-#section-four button{
+#section-four .white-button{
     width: 18vw;
     height: 2.9vw;
     
@@ -543,10 +555,13 @@ width: 38.6vw;
     font-family: Inter;
     font-size: 1vw;
     border-radius: 40px;
-    background-color: #4159BB;
+    
     border: 0cap;
-    color: white;
+    
 }
+
+
+
 
 #section-four input{
     height: 2.9vw;
