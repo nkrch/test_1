@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.getElementById("menu-burger").onclick = menuburger;
 document.getElementsByTagName("nav")[0].style.backgroundColor = "white";
 document.getElementsByTagName("nav")[0].style.position = "absolute";
@@ -44,4 +44,4 @@ function closeMenu(params) {
   document.getElementsByTagName("nav")[0].style.right =
     -2 * this.offsetWidth + "px";
 }
->>>>>>> ca608ed6c1b00423f2aa533a10856e4b4976d14e
+
